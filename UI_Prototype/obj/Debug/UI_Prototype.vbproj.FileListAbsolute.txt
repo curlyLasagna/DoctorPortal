@@ -1,0 +1,155 @@
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\bin\Debug\UI_Prototype.exe.config
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\bin\Debug\UI_Prototype.exe
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\bin\Debug\UI_Prototype.pdb
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\bin\Debug\UI_Prototype.xml
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.Bill_Info.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.currentBill.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.historicalBill.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.MainMenu.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefilling.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefillingSubmit.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.Resources.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.PaymentSystem.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.ReciptPage.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.vbproj.GenerateResource.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.vbproj.CoreCompileInputs.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.exe
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.xml
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.pdb
+C:\CIS 299\UI_Prototype\UI_Prototype\bin\Debug\UI_Prototype.exe.config
+C:\CIS 299\UI_Prototype\UI_Prototype\bin\Debug\UI_Prototype.exe
+C:\CIS 299\UI_Prototype\UI_Prototype\bin\Debug\UI_Prototype.pdb
+C:\CIS 299\UI_Prototype\UI_Prototype\bin\Debug\UI_Prototype.xml
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.vbprojAssemblyReference.cache
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.Bill_Info.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.currentBill.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.historicalBill.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.Home Monitoring.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.MainMenu.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.MedHx.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.MedicalReleasePrintableForm.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefilling.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefillingSubmit.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.MedRecordRequest.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.Resources.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.PaymentSystem.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.ReciptPage.resources
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.vbproj.GenerateResource.cache
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.vbproj.CoreCompileInputs.cache
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.exe
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.xml
+C:\CIS 299\UI_Prototype\UI_Prototype\obj\Debug\UI_Prototype.pdb
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.exe.config
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.exe
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.pdb
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.xml
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbprojAssemblyReference.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Bill_Info.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.currentBill.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.historicalBill.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Home Monitoring.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MainMenu.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedHx.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicalReleasePrintableForm.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefilling.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefillingSubmit.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedRecordRequest.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Resources.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.PaymentSystem.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.ReciptPage.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbproj.GenerateResource.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbproj.CoreCompileInputs.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.exe
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.xml
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_updated_with_PL_forms\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.pdb
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Bill_Info.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.currentBill.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.HistoricalBillExample.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.historicalBill.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MainMenu.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedHx.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicalReleasePrintableForm.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefilling.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefillingSubmit.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedRecordRequest.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Resources.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.PaymentSystem.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.ReciptPage.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbproj.GenerateResource.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbproj.CoreCompileInputs.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbprojAssemblyReference.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.exe.config
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.exe
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.pdb
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.xml
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.exe
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.xml
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.pdb
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Home_Monitoring.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.exe.config
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.exe
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.pdb
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.xml
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbprojAssemblyReference.cache
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_cancel.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_cancel_submit.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_main.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_schedule.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_schedule_submit.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_upcoming.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Bill_Info.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.currentBill.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.HistoricalBillExample.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.historicalBill.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Home_Monitoring.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.ins_main.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.ins_submit.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MainMenu.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedHx.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicalReleasePrintableForm.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefilling.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefillingSubmit.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedRecordRequest.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Resources.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.PaymentSystem.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.ReciptPage.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbproj.GenerateResource.cache
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbproj.CoreCompileInputs.cache
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.exe
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.xml
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.pdb
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.pharm_main.resources
+C:\Users\rheat\OneDrive\Desktop\mod5\uiproto\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.pharm_submit.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.exe
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.exe.config
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_cancel.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_main.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_schedule.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_schedule_submit.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.appt_upcoming.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Bill_Info.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.currentBill.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.HistoricalBillExample.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.historicalBill.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Home_Monitoring.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.ins_main.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.ins_submit.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MainMenu.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedHx.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicalReleasePrintableForm.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefilling.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedicationRefillingSubmit.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.MedRecordRequest.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.Resources.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.PaymentSystem.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.pharm_main.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.pharm_submit.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.ReciptPage.resources
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbproj.GenerateResource.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbproj.CoreCompileInputs.cache
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.exe
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.xml
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.pdb
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.pdb
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\bin\Debug\UI_Prototype.xml
+C:\Users\bechi_n97izj8\OneDrive\Desktop\299\UI_Prototype_Current_V2.1\UI_Prototype_Current\UI_Prototype updated with PL forms\UI_Prototype\obj\Debug\UI_Prototype.vbprojAssemblyReference.cache
