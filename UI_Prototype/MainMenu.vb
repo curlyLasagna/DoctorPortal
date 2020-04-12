@@ -41,6 +41,9 @@
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         pharm_main.Show()
         Me.Hide()
+    End Sub
 
+    Private Sub Form2_FormClosed(sender As Object, e As EventArgs)
+        Application.Exit()
     End Sub
 End Class
