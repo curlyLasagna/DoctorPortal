@@ -382,6 +382,7 @@ Partial Class PaymentSystem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.SteelBlue
         Me.ClientSize = New System.Drawing.Size(363, 300)
         Me.Controls.Add(Me.dashNull3)
         Me.Controls.Add(Me.dashNull4)

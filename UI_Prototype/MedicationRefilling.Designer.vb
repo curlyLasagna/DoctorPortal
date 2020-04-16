@@ -36,9 +36,10 @@ Partial Class MedicationRefilling
         '
         'previousBtn
         '
-        Me.previousBtn.Location = New System.Drawing.Point(2, 632)
+        Me.previousBtn.Location = New System.Drawing.Point(1, 411)
+        Me.previousBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.previousBtn.Name = "previousBtn"
-        Me.previousBtn.Size = New System.Drawing.Size(92, 32)
+        Me.previousBtn.Size = New System.Drawing.Size(61, 21)
         Me.previousBtn.TabIndex = 12
         Me.previousBtn.Text = "Previous"
         Me.previousBtn.UseVisualStyleBackColor = True
@@ -47,10 +48,9 @@ Partial Class MedicationRefilling
         '
         Me.amountLable.AutoSize = True
         Me.amountLable.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
-        Me.amountLable.Location = New System.Drawing.Point(220, 151)
-        Me.amountLable.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.amountLable.Location = New System.Drawing.Point(147, 98)
         Me.amountLable.Name = "amountLable"
-        Me.amountLable.Size = New System.Drawing.Size(65, 20)
+        Me.amountLable.Size = New System.Drawing.Size(44, 13)
         Me.amountLable.TabIndex = 11
         Me.amountLable.Text = "Dosage"
         '
@@ -58,10 +58,9 @@ Partial Class MedicationRefilling
         '
         Me.reciptNumber.AutoSize = True
         Me.reciptNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
-        Me.reciptNumber.Location = New System.Drawing.Point(333, 151)
-        Me.reciptNumber.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.reciptNumber.Location = New System.Drawing.Point(222, 98)
         Me.reciptNumber.Name = "reciptNumber"
-        Me.reciptNumber.Size = New System.Drawing.Size(33, 20)
+        Me.reciptNumber.Size = New System.Drawing.Size(23, 13)
         Me.reciptNumber.TabIndex = 10
         Me.reciptNumber.Text = "Qty"
         '
@@ -69,34 +68,30 @@ Partial Class MedicationRefilling
         '
         Me.dateLabel.AutoSize = True
         Me.dateLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
-        Me.dateLabel.Location = New System.Drawing.Point(18, 151)
-        Me.dateLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.dateLabel.Location = New System.Drawing.Point(12, 98)
         Me.dateLabel.Name = "dateLabel"
-        Me.dateLabel.Size = New System.Drawing.Size(55, 20)
+        Me.dateLabel.Size = New System.Drawing.Size(38, 13)
         Me.dateLabel.TabIndex = 8
         Me.dateLabel.Text = "Name "
         '
         'medicationListBox
         '
         Me.medicationListBox.FormattingEnabled = True
-        Me.medicationListBox.ItemHeight = 20
         Me.medicationListBox.Items.AddRange(New Object() {"Ciprofloxacin                         100mg              30             5        " &
                 "         Bechie                                CVS", "", "Pantoprazole                          40mg            120            10          " &
                 "       Lewis                                  CVS"})
-        Me.medicationListBox.Location = New System.Drawing.Point(18, 175)
-        Me.medicationListBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.medicationListBox.Location = New System.Drawing.Point(12, 114)
         Me.medicationListBox.Name = "medicationListBox"
-        Me.medicationListBox.Size = New System.Drawing.Size(770, 404)
+        Me.medicationListBox.Size = New System.Drawing.Size(515, 264)
         Me.medicationListBox.TabIndex = 7
         '
         'medicationList
         '
         Me.medicationList.AutoSize = True
         Me.medicationList.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.medicationList.Location = New System.Drawing.Point(274, 14)
-        Me.medicationList.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.medicationList.Location = New System.Drawing.Point(183, 9)
         Me.medicationList.Name = "medicationList"
-        Me.medicationList.Size = New System.Drawing.Size(213, 32)
+        Me.medicationList.Size = New System.Drawing.Size(139, 24)
         Me.medicationList.TabIndex = 13
         Me.medicationList.Text = "Medication List "
         '
@@ -104,10 +99,9 @@ Partial Class MedicationRefilling
         '
         Me.pharmacy.AutoSize = True
         Me.pharmacy.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
-        Me.pharmacy.Location = New System.Drawing.Point(669, 151)
-        Me.pharmacy.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.pharmacy.Location = New System.Drawing.Point(446, 98)
         Me.pharmacy.Name = "pharmacy"
-        Me.pharmacy.Size = New System.Drawing.Size(83, 20)
+        Me.pharmacy.Size = New System.Drawing.Size(57, 13)
         Me.pharmacy.TabIndex = 14
         Me.pharmacy.Text = "Pharmacy "
         '
@@ -115,10 +109,9 @@ Partial Class MedicationRefilling
         '
         Me.doctor.AutoSize = True
         Me.doctor.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
-        Me.doctor.Location = New System.Drawing.Point(482, 131)
-        Me.doctor.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.doctor.Location = New System.Drawing.Point(321, 85)
         Me.doctor.Name = "doctor"
-        Me.doctor.Size = New System.Drawing.Size(87, 40)
+        Me.doctor.Size = New System.Drawing.Size(59, 26)
         Me.doctor.TabIndex = 15
         Me.doctor.Text = "Prescribing" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "   Doctor"
         '
@@ -126,28 +119,27 @@ Partial Class MedicationRefilling
         '
         Me.refill.AutoSize = True
         Me.refill.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
-        Me.refill.Location = New System.Drawing.Point(399, 131)
-        Me.refill.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.refill.Location = New System.Drawing.Point(266, 85)
         Me.refill.Name = "refill"
-        Me.refill.Size = New System.Drawing.Size(52, 40)
+        Me.refill.Size = New System.Drawing.Size(35, 26)
         Me.refill.TabIndex = 16
         Me.refill.Text = "Refills" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " Left"
         '
         'directions
         '
         Me.directions.AutoSize = True
-        Me.directions.Location = New System.Drawing.Point(141, 82)
-        Me.directions.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.directions.Location = New System.Drawing.Point(94, 53)
         Me.directions.Name = "directions"
-        Me.directions.Size = New System.Drawing.Size(502, 20)
+        Me.directions.Size = New System.Drawing.Size(339, 13)
         Me.directions.TabIndex = 17
         Me.directions.Text = "Doubel left click on the medication you want to refill from the list below "
         '
         'MedicationRefilling
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 668)
+        Me.BackColor = System.Drawing.Color.SteelBlue
+        Me.ClientSize = New System.Drawing.Size(533, 434)
         Me.Controls.Add(Me.directions)
         Me.Controls.Add(Me.refill)
         Me.Controls.Add(Me.doctor)
@@ -158,6 +150,7 @@ Partial Class MedicationRefilling
         Me.Controls.Add(Me.reciptNumber)
         Me.Controls.Add(Me.dateLabel)
         Me.Controls.Add(Me.medicationListBox)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "MedicationRefilling"
         Me.Text = "Medication Refilling"
         Me.ResumeLayout(False)

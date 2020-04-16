@@ -84,12 +84,14 @@ Partial Class Bill_Info
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.SteelBlue
         Me.ClientSize = New System.Drawing.Size(486, 162)
         Me.Controls.Add(Me.previousBtn)
         Me.Controls.Add(Me.historicalBillBtn)
         Me.Controls.Add(Me.currentBillBtn)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.questionOpener)
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Bill_Info"
         Me.Text = "Bill Info"

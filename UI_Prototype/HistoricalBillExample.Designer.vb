@@ -22,7 +22,7 @@ Partial Class HistoricalBillExample
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"304-X", "Detoxicity of Self", "2", "7,948.68", "15,897.36"}, -1)
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"304-X", "Detoxicity of Self", "2", "7,948.68", "15,897.36"}, -1)
         Me.insurancePayment = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.paymentMethod = New System.Windows.Forms.Label()
@@ -129,7 +129,7 @@ Partial Class HistoricalBillExample
         '
         Me.receiptItemListBox.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.medicalCode, Me.descriptonOfService, Me.quanityOfService, Me.rateOfService, Me.moneyTotal})
         Me.receiptItemListBox.HideSelection = False
-        Me.receiptItemListBox.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem2})
+        Me.receiptItemListBox.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1})
         Me.receiptItemListBox.Location = New System.Drawing.Point(7, 294)
         Me.receiptItemListBox.Margin = New System.Windows.Forms.Padding(2)
         Me.receiptItemListBox.Name = "receiptItemListBox"
@@ -310,6 +310,7 @@ Partial Class HistoricalBillExample
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.SteelBlue
         Me.ClientSize = New System.Drawing.Size(431, 571)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
