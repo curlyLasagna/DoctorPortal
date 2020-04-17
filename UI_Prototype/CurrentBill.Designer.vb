@@ -22,6 +22,7 @@ Partial Class currentBill
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(currentBill))
         Me.receiptItemListBox = New System.Windows.Forms.ListView()
         Me.medicalCode = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.descriptonOfService = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -45,6 +46,10 @@ Partial Class currentBill
         Me.totalAmount = New System.Windows.Forms.Label()
         Me.subtotal = New System.Windows.Forms.Label()
         Me.taxRate = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.TableLayoutPanel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'receiptItemListBox
@@ -87,188 +92,246 @@ Partial Class currentBill
         'patientCityStateZip
         '
         Me.patientCityStateZip.AutoSize = True
-        Me.patientCityStateZip.Location = New System.Drawing.Point(8, 267)
+        Me.patientCityStateZip.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientCityStateZip.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.patientCityStateZip.Location = New System.Drawing.Point(11, 258)
         Me.patientCityStateZip.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientCityStateZip.Name = "patientCityStateZip"
-        Me.patientCityStateZip.Size = New System.Drawing.Size(79, 13)
+        Me.patientCityStateZip.Size = New System.Drawing.Size(97, 15)
         Me.patientCityStateZip.TabIndex = 23
         Me.patientCityStateZip.Text = "City/State/ZIP:"
         '
         'patientStreetAddress
         '
         Me.patientStreetAddress.AutoSize = True
-        Me.patientStreetAddress.Location = New System.Drawing.Point(8, 246)
+        Me.patientStreetAddress.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientStreetAddress.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.patientStreetAddress.Location = New System.Drawing.Point(11, 237)
         Me.patientStreetAddress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientStreetAddress.Name = "patientStreetAddress"
-        Me.patientStreetAddress.Size = New System.Drawing.Size(79, 13)
+        Me.patientStreetAddress.Size = New System.Drawing.Size(100, 15)
         Me.patientStreetAddress.TabIndex = 22
         Me.patientStreetAddress.Text = "Street Address:"
         '
         'patientName
         '
         Me.patientName.AutoSize = True
-        Me.patientName.Location = New System.Drawing.Point(8, 227)
+        Me.patientName.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientName.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.patientName.Location = New System.Drawing.Point(11, 218)
         Me.patientName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientName.Name = "patientName"
-        Me.patientName.Size = New System.Drawing.Size(38, 13)
+        Me.patientName.Size = New System.Drawing.Size(46, 15)
         Me.patientName.TabIndex = 21
         Me.patientName.Text = "Name:"
         '
         'patientInformation
         '
         Me.patientInformation.AutoSize = True
-        Me.patientInformation.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.patientInformation.Location = New System.Drawing.Point(8, 205)
+        Me.patientInformation.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientInformation.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.patientInformation.Location = New System.Drawing.Point(11, 196)
         Me.patientInformation.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientInformation.Name = "patientInformation"
-        Me.patientInformation.Size = New System.Drawing.Size(118, 13)
+        Me.patientInformation.Size = New System.Drawing.Size(130, 15)
         Me.patientInformation.TabIndex = 20
         Me.patientInformation.Text = "Patient Information:"
         '
         'officeCityStateZip
         '
         Me.officeCityStateZip.AutoSize = True
-        Me.officeCityStateZip.Location = New System.Drawing.Point(8, 169)
+        Me.officeCityStateZip.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.officeCityStateZip.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.officeCityStateZip.Location = New System.Drawing.Point(11, 160)
         Me.officeCityStateZip.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.officeCityStateZip.Name = "officeCityStateZip"
-        Me.officeCityStateZip.Size = New System.Drawing.Size(79, 13)
+        Me.officeCityStateZip.Size = New System.Drawing.Size(97, 15)
         Me.officeCityStateZip.TabIndex = 19
         Me.officeCityStateZip.Text = "City/State/ZIP:"
         '
         'officeAddress
         '
         Me.officeAddress.AutoSize = True
-        Me.officeAddress.Location = New System.Drawing.Point(8, 149)
+        Me.officeAddress.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.officeAddress.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.officeAddress.Location = New System.Drawing.Point(11, 140)
         Me.officeAddress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.officeAddress.Name = "officeAddress"
-        Me.officeAddress.Size = New System.Drawing.Size(79, 13)
+        Me.officeAddress.Size = New System.Drawing.Size(98, 15)
         Me.officeAddress.TabIndex = 18
         Me.officeAddress.Text = "Office Address:"
         '
         'licenseNumber
         '
         Me.licenseNumber.AutoSize = True
-        Me.licenseNumber.Location = New System.Drawing.Point(8, 127)
+        Me.licenseNumber.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.licenseNumber.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.licenseNumber.Location = New System.Drawing.Point(11, 118)
         Me.licenseNumber.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.licenseNumber.Name = "licenseNumber"
-        Me.licenseNumber.Size = New System.Drawing.Size(87, 13)
+        Me.licenseNumber.Size = New System.Drawing.Size(111, 15)
         Me.licenseNumber.TabIndex = 17
         Me.licenseNumber.Text = "License Number:"
         '
         'doctorsName
         '
         Me.doctorsName.AutoSize = True
-        Me.doctorsName.Location = New System.Drawing.Point(8, 107)
+        Me.doctorsName.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.doctorsName.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.doctorsName.Location = New System.Drawing.Point(11, 98)
         Me.doctorsName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.doctorsName.Name = "doctorsName"
-        Me.doctorsName.Size = New System.Drawing.Size(92, 13)
+        Me.doctorsName.Size = New System.Drawing.Size(120, 15)
         Me.doctorsName.TabIndex = 16
         Me.doctorsName.Text = "Practitoner Name:"
         '
         'dateLable
         '
         Me.dateLable.AutoSize = True
-        Me.dateLable.Location = New System.Drawing.Point(293, 70)
+        Me.dateLable.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dateLable.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.dateLable.Location = New System.Drawing.Point(305, 78)
         Me.dateLable.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.dateLable.Name = "dateLable"
-        Me.dateLable.Size = New System.Drawing.Size(33, 13)
+        Me.dateLable.Size = New System.Drawing.Size(39, 15)
         Me.dateLable.TabIndex = 15
         Me.dateLable.Text = "Date:"
         '
         'nameOfInstitution
         '
         Me.nameOfInstitution.AutoSize = True
-        Me.nameOfInstitution.Location = New System.Drawing.Point(8, 87)
+        Me.nameOfInstitution.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.nameOfInstitution.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.nameOfInstitution.Location = New System.Drawing.Point(11, 78)
         Me.nameOfInstitution.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.nameOfInstitution.Name = "nameOfInstitution"
-        Me.nameOfInstitution.Size = New System.Drawing.Size(138, 13)
+        Me.nameOfInstitution.Size = New System.Drawing.Size(182, 15)
         Me.nameOfInstitution.TabIndex = 14
         Me.nameOfInstitution.Text = "Name of Medical Institution:"
         '
         'Label1
         '
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.Label1.Location = New System.Drawing.Point(149, 16)
+        Me.Label1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
+        Me.Label1.Location = New System.Drawing.Point(224, 10)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(106, 48)
+        Me.Label1.Size = New System.Drawing.Size(129, 48)
         Me.Label1.TabIndex = 25
         Me.Label1.Text = "Current Bill " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "   Viewer"
         '
         'previousBtn
         '
-        Me.previousBtn.Location = New System.Drawing.Point(11, 606)
+        Me.previousBtn.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.previousBtn.ForeColor = System.Drawing.Color.Black
+        Me.previousBtn.Location = New System.Drawing.Point(11, 600)
         Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.previousBtn.Name = "previousBtn"
         Me.previousBtn.Size = New System.Drawing.Size(61, 21)
         Me.previousBtn.TabIndex = 29
         Me.previousBtn.Text = "Previous"
-        Me.previousBtn.UseVisualStyleBackColor = True
+        Me.previousBtn.UseVisualStyleBackColor = False
         '
         'payNowBtn
         '
-        Me.payNowBtn.Location = New System.Drawing.Point(178, 565)
+        Me.payNowBtn.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.payNowBtn.ForeColor = System.Drawing.Color.Black
+        Me.payNowBtn.Location = New System.Drawing.Point(179, 546)
         Me.payNowBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.payNowBtn.Name = "payNowBtn"
-        Me.payNowBtn.Size = New System.Drawing.Size(95, 21)
+        Me.payNowBtn.Size = New System.Drawing.Size(95, 38)
         Me.payNowBtn.TabIndex = 30
         Me.payNowBtn.Text = "Pay Now "
-        Me.payNowBtn.UseVisualStyleBackColor = True
+        Me.payNowBtn.UseVisualStyleBackColor = False
         '
         'insurancePayment
         '
         Me.insurancePayment.AutoSize = True
-        Me.insurancePayment.Location = New System.Drawing.Point(216, 506)
+        Me.insurancePayment.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.insurancePayment.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.insurancePayment.Location = New System.Drawing.Point(11, 505)
         Me.insurancePayment.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.insurancePayment.Name = "insurancePayment"
-        Me.insurancePayment.Size = New System.Drawing.Size(110, 13)
+        Me.insurancePayment.Size = New System.Drawing.Size(140, 15)
         Me.insurancePayment.TabIndex = 37
         Me.insurancePayment.Text = "Insurance Payment: $"
         '
         'totalAmount
         '
         Me.totalAmount.AutoSize = True
-        Me.totalAmount.Location = New System.Drawing.Point(283, 528)
+        Me.totalAmount.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalAmount.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.totalAmount.Location = New System.Drawing.Point(11, 529)
         Me.totalAmount.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.totalAmount.Name = "totalAmount"
-        Me.totalAmount.Size = New System.Drawing.Size(43, 13)
+        Me.totalAmount.Size = New System.Drawing.Size(52, 15)
         Me.totalAmount.TabIndex = 36
         Me.totalAmount.Text = "Total: $"
         '
         'subtotal
         '
         Me.subtotal.AutoSize = True
-        Me.subtotal.Location = New System.Drawing.Point(268, 462)
+        Me.subtotal.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.subtotal.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.subtotal.Location = New System.Drawing.Point(11, 461)
         Me.subtotal.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.subtotal.Name = "subtotal"
-        Me.subtotal.Size = New System.Drawing.Size(58, 13)
+        Me.subtotal.Size = New System.Drawing.Size(73, 15)
         Me.subtotal.TabIndex = 35
         Me.subtotal.Text = "Subtotal: $"
         '
         'taxRate
         '
         Me.taxRate.AutoSize = True
-        Me.taxRate.Location = New System.Drawing.Point(255, 484)
+        Me.taxRate.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.taxRate.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.taxRate.Location = New System.Drawing.Point(11, 483)
         Me.taxRate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.taxRate.Name = "taxRate"
-        Me.taxRate.Size = New System.Drawing.Size(71, 13)
+        Me.taxRate.Size = New System.Drawing.Size(89, 15)
         Me.taxRate.TabIndex = 34
         Me.taxRate.Text = "Tax Rate (%):"
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.White
+        Me.TableLayoutPanel1.ColumnCount = 2
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.02541!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.97459!))
+        Me.TableLayoutPanel1.Controls.Add(Me.Label1, 1, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 0, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(-1, -3)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(435, 68)
+        Me.TableLayoutPanel1.TabIndex = 38
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(134, 57)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 26
+        Me.PictureBox1.TabStop = False
         '
         'currentBill
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SteelBlue
+        Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(429, 632)
+        Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.insurancePayment)
         Me.Controls.Add(Me.totalAmount)
         Me.Controls.Add(Me.subtotal)
         Me.Controls.Add(Me.taxRate)
         Me.Controls.Add(Me.payNowBtn)
         Me.Controls.Add(Me.previousBtn)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.receiptItemListBox)
         Me.Controls.Add(Me.patientCityStateZip)
         Me.Controls.Add(Me.patientStreetAddress)
@@ -280,9 +343,13 @@ Partial Class currentBill
         Me.Controls.Add(Me.doctorsName)
         Me.Controls.Add(Me.dateLable)
         Me.Controls.Add(Me.nameOfInstitution)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "currentBill"
         Me.Text = "Current Bill"
+        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.TableLayoutPanel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -311,4 +378,6 @@ Partial Class currentBill
     Friend WithEvents totalAmount As Label
     Friend WithEvents subtotal As Label
     Friend WithEvents taxRate As Label
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

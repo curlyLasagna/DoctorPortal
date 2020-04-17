@@ -432,12 +432,12 @@ Partial Class MedHx
         '
         'previousBtn
         '
-        Me.previousBtn.Location = New System.Drawing.Point(400, 11)
+        Me.previousBtn.Location = New System.Drawing.Point(21, 518)
         Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.previousBtn.Name = "previousBtn"
         Me.previousBtn.Size = New System.Drawing.Size(97, 21)
         Me.previousBtn.TabIndex = 8
-        Me.previousBtn.Text = "Main Menu "
+        Me.previousBtn.Text = "Previous"
         Me.previousBtn.UseVisualStyleBackColor = True
         '
         'MedHx

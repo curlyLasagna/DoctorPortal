@@ -62,4 +62,9 @@
     Private Sub closeApp(sender As Object, e As EventArgs) Handles exit_button.Click
         Me.Close()
     End Sub
+
+    Private Sub goto_AccountInfo(sender As Object, e As EventArgs) Handles clientInfo_Button.Click
+        AccountInfo.Show()
+        Me.Hide()
+    End Sub
 End Class

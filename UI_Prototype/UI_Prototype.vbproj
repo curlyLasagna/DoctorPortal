@@ -279,6 +279,9 @@
     <EmbeddedResource Include="appt_cancel.resx">
       <DependentUpon>appt_cancel.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="appt_cancel_submit.resx">
+      <DependentUpon>appt_cancel_submit.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="appt_main.resx">
       <DependentUpon>appt_main.vb</DependentUpon>
     </EmbeddedResource>

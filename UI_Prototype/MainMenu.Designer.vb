@@ -34,7 +34,7 @@ Partial Class MainMenu
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.AboutMeSubMenu = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.clientInfo_Button = New System.Windows.Forms.Button()
         Me.exit_button = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -176,7 +176,7 @@ Partial Class MainMenu
         '
         Me.AboutMeSubMenu.AutoScroll = True
         Me.AboutMeSubMenu.BackColor = System.Drawing.Color.Transparent
-        Me.AboutMeSubMenu.Controls.Add(Me.Button2)
+        Me.AboutMeSubMenu.Controls.Add(Me.clientInfo_Button)
         Me.AboutMeSubMenu.Controls.Add(Me.Button9)
         Me.AboutMeSubMenu.Controls.Add(Me.Button10)
         Me.AboutMeSubMenu.Controls.Add(Me.Button8)
@@ -187,23 +187,24 @@ Partial Class MainMenu
         Me.AboutMeSubMenu.Size = New System.Drawing.Size(130, 0)
         Me.AboutMeSubMenu.TabIndex = 11
         '
-        'Button2
+        'clientInfo_Button
         '
-        Me.Button2.AutoSize = True
-        Me.Button2.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
-        Me.Button2.FlatAppearance.BorderSize = 3
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(1, 143)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(118, 31)
-        Me.Button2.TabIndex = 12
-        Me.Button2.Text = "Client information"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.clientInfo_Button.AutoSize = True
+        Me.clientInfo_Button.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.clientInfo_Button.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
+        Me.clientInfo_Button.FlatAppearance.BorderSize = 3
+        Me.clientInfo_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.clientInfo_Button.Location = New System.Drawing.Point(1, 143)
+        Me.clientInfo_Button.Name = "clientInfo_Button"
+        Me.clientInfo_Button.Size = New System.Drawing.Size(118, 31)
+        Me.clientInfo_Button.TabIndex = 12
+        Me.clientInfo_Button.Text = "Client information"
+        Me.clientInfo_Button.UseVisualStyleBackColor = False
         '
         'exit_button
         '
         Me.exit_button.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.exit_button.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.exit_button.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.exit_button.FlatAppearance.BorderSize = 3
         Me.exit_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -262,6 +263,7 @@ Partial Class MainMenu
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.CancelButton = Me.exit_button
         Me.ClientSize = New System.Drawing.Size(287, 346)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.exit_button)
@@ -273,6 +275,7 @@ Partial Class MainMenu
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MainMenu"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Patient Portal"
         Me.AboutMeSubMenu.ResumeLayout(False)
         Me.AboutMeSubMenu.PerformLayout()
@@ -292,7 +295,7 @@ Partial Class MainMenu
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
     Friend WithEvents AboutMeSubMenu As Panel
-    Friend WithEvents Button2 As Button
+    Friend WithEvents clientInfo_Button As Button
     Friend WithEvents exit_button As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Timer1 As Timer

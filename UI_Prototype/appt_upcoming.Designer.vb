@@ -59,6 +59,7 @@ Partial Class appt_upcoming
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "appt_upcoming"
         Me.Text = "appt_upcoming"
         Me.ResumeLayout(False)
