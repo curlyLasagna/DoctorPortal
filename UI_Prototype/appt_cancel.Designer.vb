@@ -90,6 +90,7 @@ Partial Class appt_cancel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.SteelBlue
         Me.ClientSize = New System.Drawing.Size(313, 208)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)

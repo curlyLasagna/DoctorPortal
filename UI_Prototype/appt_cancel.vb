@@ -8,4 +8,8 @@
         appt_main.Show()
         Me.Close()
     End Sub
+
+    Private Sub appt_cancel_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

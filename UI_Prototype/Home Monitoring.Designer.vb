@@ -151,6 +151,7 @@ Partial Class Home_Monitoring
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.SteelBlue
         Me.ClientSize = New System.Drawing.Size(508, 377)
         Me.Controls.Add(Me.previousBtn)
         Me.Controls.Add(Me.submitButton)

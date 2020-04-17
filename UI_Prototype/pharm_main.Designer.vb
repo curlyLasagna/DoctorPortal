@@ -128,6 +128,7 @@ Partial Class pharm_main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.SteelBlue
         Me.ClientSize = New System.Drawing.Size(286, 200)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
