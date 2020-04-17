@@ -31,8 +31,8 @@ Partial Class MedRecordRequest
         'MedicalReleaseInfoText
         '
         Me.MedicalReleaseInfoText.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
-        Me.MedicalReleaseInfoText.Location = New System.Drawing.Point(35, 39)
-        Me.MedicalReleaseInfoText.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.MedicalReleaseInfoText.Location = New System.Drawing.Point(20, 32)
+        Me.MedicalReleaseInfoText.Margin = New System.Windows.Forms.Padding(2)
         Me.MedicalReleaseInfoText.Name = "MedicalReleaseInfoText"
         Me.MedicalReleaseInfoText.Size = New System.Drawing.Size(542, 65)
         Me.MedicalReleaseInfoText.TabIndex = 0
@@ -40,17 +40,17 @@ Partial Class MedRecordRequest
         '
         'openReleaseFormButton
         '
-        Me.openReleaseFormButton.Location = New System.Drawing.Point(101, 176)
-        Me.openReleaseFormButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.openReleaseFormButton.Location = New System.Drawing.Point(175, 129)
+        Me.openReleaseFormButton.Margin = New System.Windows.Forms.Padding(2)
         Me.openReleaseFormButton.Name = "openReleaseFormButton"
-        Me.openReleaseFormButton.Size = New System.Drawing.Size(369, 49)
+        Me.openReleaseFormButton.Size = New System.Drawing.Size(229, 49)
         Me.openReleaseFormButton.TabIndex = 1
         Me.openReleaseFormButton.Text = "Open Medical Release Form"
         Me.openReleaseFormButton.UseVisualStyleBackColor = True
         '
         'previousBtn
         '
-        Me.previousBtn.Location = New System.Drawing.Point(2, 232)
+        Me.previousBtn.Location = New System.Drawing.Point(11, 222)
         Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.previousBtn.Name = "previousBtn"
         Me.previousBtn.Size = New System.Drawing.Size(61, 21)
@@ -62,12 +62,13 @@ Partial Class MedRecordRequest
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(634, 254)
+        Me.ClientSize = New System.Drawing.Size(583, 254)
         Me.Controls.Add(Me.previousBtn)
         Me.Controls.Add(Me.openReleaseFormButton)
         Me.Controls.Add(Me.MedicalReleaseInfoText)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MedRecordRequest"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Medical Release Request"
         Me.ResumeLayout(False)
 

@@ -126,6 +126,7 @@ Partial Class appt_schedule
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "appt_schedule"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "appt_schedule"
         Me.ResumeLayout(False)
         Me.PerformLayout()
