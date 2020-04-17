@@ -68,9 +68,7 @@ Partial Class appt_upcoming
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-
         Me.ClientSize = New System.Drawing.Size(313, 313)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DateTimePicker1)
@@ -78,7 +76,7 @@ Partial Class appt_upcoming
         Me.Controls.Add(Me.Label1)
         Me.Name = "appt_upcoming"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "appt_upcoming"
+        Me.Text = "Upcoming Aptts"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

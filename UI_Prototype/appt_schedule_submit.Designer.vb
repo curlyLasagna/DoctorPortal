@@ -59,14 +59,13 @@ Partial Class appt_schedule_submit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(302, 154)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "appt_schedule_submit"
-        Me.Text = "appt_schedule_submit"
+        Me.Text = "Submitted"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

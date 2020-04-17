@@ -199,9 +199,7 @@ Partial Class ins_main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-
         Me.ClientSize = New System.Drawing.Size(287, 247)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Button2)
@@ -217,7 +215,7 @@ Partial Class ins_main
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "ins_main"
-        Me.Text = "Form1"
+        Me.Text = "Insurance Info"
         Me.TableLayoutPanel1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

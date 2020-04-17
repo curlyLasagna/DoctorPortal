@@ -94,17 +94,15 @@ Partial Class pharm_submit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-
         Me.ClientSize = New System.Drawing.Size(288, 170)
         Me.Controls.Add(Me.OkButton)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label3)
         Me.Name = "pharm_submit"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "pharm_submit"
+        Me.Text = "Submitted"
         Me.TableLayoutPanel1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

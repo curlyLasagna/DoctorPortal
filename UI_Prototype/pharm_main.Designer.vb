@@ -153,9 +153,7 @@ Partial Class pharm_main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-
         Me.ClientSize = New System.Drawing.Size(286, 200)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Button2)
@@ -168,7 +166,7 @@ Partial Class pharm_main
         Me.Controls.Add(Me.Label3)
         Me.Name = "pharm_main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Pharmacy Info"
         Me.TableLayoutPanel1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

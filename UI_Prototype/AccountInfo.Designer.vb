@@ -239,7 +239,7 @@ Partial Class AccountInfo
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "AccountInfo"
-        Me.Text = "AccountInfo"
+        Me.Text = "Account Info"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

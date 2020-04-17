@@ -113,7 +113,6 @@ Partial Class appt_cancel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(313, 208)
         Me.Controls.Add(Me.TableLayoutPanel1)
@@ -123,7 +122,7 @@ Partial Class appt_cancel
         Me.Controls.Add(Me.Label2)
         Me.Name = "appt_cancel"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "appt_cancel"
+        Me.Text = "Cancel Appt"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
