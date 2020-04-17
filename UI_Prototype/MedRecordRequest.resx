@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="MedicalReleaseInfoText.Text" xml:space="preserve">
+  <data name="Label1.Text" xml:space="preserve">
     <value>An authorization form is required when you are requesting copies of medical records or asking that we disclose your health information to 3rd parties. We cannot fulfill medical records requests via email or an online form. The authorization form is not valid if one or more required elements are left blank. Failure to complete all required elements may result in a delay in processing your request.</value>
   </data>
 </root>

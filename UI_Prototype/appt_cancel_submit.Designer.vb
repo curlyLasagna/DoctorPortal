@@ -77,6 +77,7 @@ Partial Class appt_cancel_submit
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "appt_cancel_submit"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "appt_cancel_submit"
         Me.ResumeLayout(False)
         Me.PerformLayout()

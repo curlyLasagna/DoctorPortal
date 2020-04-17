@@ -23,8 +23,8 @@ Partial Class SplashScreen
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SplashScreen))
         Dim Timer1 As System.Windows.Forms.Timer
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SplashScreen))
         Me.Image_Table = New System.Windows.Forms.TableLayoutPanel()
         Me.ApplicationTitle = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
@@ -34,8 +34,13 @@ Partial Class SplashScreen
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
+        'Timer1
+        '
+        Timer1.Interval = 300
+        '
         'Image_Table
         '
+        Me.Image_Table.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Image_Table.BackgroundImage = CType(resources.GetObject("Image_Table.BackgroundImage"), System.Drawing.Image)
         Me.Image_Table.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Image_Table.ColumnCount = 1
@@ -59,12 +64,9 @@ Partial Class SplashScreen
         Me.ApplicationTitle.TabIndex = 1
         Me.ApplicationTitle.Text = "Patient Portal"
         '
-        'Timer1
-        '
-        Timer1.Interval = 300
-        '
         'TableLayoutPanel1
         '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.CornflowerBlue
         Me.TableLayoutPanel1.ColumnCount = 1
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.42857!))
         Me.TableLayoutPanel1.Controls.Add(Me.ApplicationTitle, 0, 0)
@@ -105,7 +107,7 @@ Partial Class SplashScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SteelBlue
+        Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(445, 163)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)

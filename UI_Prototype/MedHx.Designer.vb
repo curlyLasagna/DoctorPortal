@@ -22,7 +22,6 @@ Partial Class MedHx
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.statusLabel = New System.Windows.Forms.Label()
         Me.diagnosisLabel = New System.Windows.Forms.Label()
@@ -56,6 +55,7 @@ Partial Class MedHx
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.previousBtn = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -66,18 +66,7 @@ Partial Class MedHx
         Me.Panel4.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(17, 20)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(170, 24)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Medical Diagnoses"
-        '
+
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
@@ -432,19 +421,33 @@ Partial Class MedHx
         '
         'previousBtn
         '
-        Me.previousBtn.Location = New System.Drawing.Point(400, 11)
+        Me.previousBtn.Location = New System.Drawing.Point(21, 518)
         Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.previousBtn.Name = "previousBtn"
         Me.previousBtn.Size = New System.Drawing.Size(97, 21)
         Me.previousBtn.TabIndex = 8
-        Me.previousBtn.Text = "Main Menu "
+        Me.previousBtn.Text = "Previous"
         Me.previousBtn.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.Location = New System.Drawing.Point(396, 9)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(138, 24)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Medical History"
         '
         'MedHx
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SteelBlue
+
+        Me.BackColor = System.Drawing.Color.CornflowerBlue
+
         Me.ClientSize = New System.Drawing.Size(927, 550)
         Me.Controls.Add(Me.previousBtn)
         Me.Controls.Add(Me.TableLayoutPanel4)
@@ -479,8 +482,6 @@ Partial Class MedHx
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents diagnosisLabel As Label
     Friend WithEvents statusLabel As Label
@@ -514,4 +515,5 @@ Partial Class MedHx
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents previousBtn As Button
+    Friend WithEvents Label1 As Label
 End Class

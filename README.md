@@ -2,6 +2,6 @@
 CIS 299WK Project
 
 Colorway: 
-- Steel blue
+- CornflowerBlue
 - Whitesmoke
 - LightSkyBlue
