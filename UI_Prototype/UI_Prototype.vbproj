@@ -91,6 +91,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountInfo.Designer.vb">
+      <DependentUpon>AccountInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AccountInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="appt_cancel.Designer.vb">
       <DependentUpon>appt_cancel.vb</DependentUpon>
@@ -267,6 +273,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AccountInfo.resx">
+      <DependentUpon>AccountInfo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="appt_cancel.resx">
       <DependentUpon>appt_cancel.vb</DependentUpon>
     </EmbeddedResource>

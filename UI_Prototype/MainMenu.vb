@@ -1,5 +1,5 @@
 ﻿Public Class MainMenu
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -45,5 +45,21 @@
 
     Private Sub Form2_FormClosed(sender As Object, e As EventArgs)
         Application.Exit()
+    End Sub
+
+    Private Sub AboutMe_Click(sender As Object, e As EventArgs) Handles AboutMe_Button.Click
+        Timer1.Start()
+        If Not AboutMeSubMenu.Height = 0 Then
+            AboutMeSubMenu.Height = 0
+            Timer1.Enabled = False
+        End If
+    End Sub
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        AboutMeSubMenu.Height = 211
+        Timer1.Stop()
+    End Sub
+
+    Private Sub closeApp(sender As Object, e As EventArgs) Handles exit_button.Click
+        Me.Close()
     End Sub
 End Class
