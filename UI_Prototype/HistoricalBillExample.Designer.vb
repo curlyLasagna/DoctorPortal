@@ -22,7 +22,8 @@ Partial Class HistoricalBillExample
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"304-X", "Detoxicity of Self", "2", "7,948.68", "15,897.36"}, -1)
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"304-X", "Detoxicity of Self", "2", "7,948.68", "15,897.36"}, -1)
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(HistoricalBillExample))
         Me.insurancePayment = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.paymentMethod = New System.Windows.Forms.Label()
@@ -50,78 +51,93 @@ Partial Class HistoricalBillExample
         Me.medicalBillReceiptHeader = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.TableLayoutPanel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'insurancePayment
         '
         Me.insurancePayment.AutoSize = True
-        Me.insurancePayment.Location = New System.Drawing.Point(209, 486)
+        Me.insurancePayment.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.insurancePayment.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.insurancePayment.Location = New System.Drawing.Point(5, 522)
         Me.insurancePayment.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.insurancePayment.Name = "insurancePayment"
-        Me.insurancePayment.Size = New System.Drawing.Size(161, 13)
+        Me.insurancePayment.Size = New System.Drawing.Size(181, 14)
         Me.insurancePayment.TabIndex = 53
         Me.insurancePayment.Text = "Insurance Payment: $ 10,000.00"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(4, 546)
+        Me.Label1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label1.Location = New System.Drawing.Point(274, 499)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(185, 13)
+        Me.Label1.Size = New System.Drawing.Size(213, 14)
         Me.Label1.TabIndex = 52
         Me.Label1.Text = "Card/Check No.: xxxx-xxxx-xxxx-035C"
         '
         'paymentMethod
         '
         Me.paymentMethod.AutoSize = True
-        Me.paymentMethod.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.paymentMethod.Location = New System.Drawing.Point(4, 527)
+        Me.paymentMethod.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.paymentMethod.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.paymentMethod.Location = New System.Drawing.Point(274, 475)
         Me.paymentMethod.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.paymentMethod.Name = "paymentMethod"
-        Me.paymentMethod.Size = New System.Drawing.Size(166, 13)
+        Me.paymentMethod.Size = New System.Drawing.Size(191, 14)
         Me.paymentMethod.TabIndex = 51
         Me.paymentMethod.Text = "Payment Merhod: Multiverse Card"
         '
         'amountPaid
         '
         Me.amountPaid.AutoSize = True
-        Me.amountPaid.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.amountPaid.Location = New System.Drawing.Point(229, 527)
+        Me.amountPaid.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.amountPaid.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.amountPaid.Location = New System.Drawing.Point(5, 573)
         Me.amountPaid.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.amountPaid.Name = "amountPaid"
-        Me.amountPaid.Size = New System.Drawing.Size(150, 13)
+        Me.amountPaid.Size = New System.Drawing.Size(144, 14)
         Me.amountPaid.TabIndex = 50
         Me.amountPaid.Text = "Amount Paid: $15,897.36"
         '
         'totalAmount
         '
         Me.totalAmount.AutoSize = True
-        Me.totalAmount.Location = New System.Drawing.Point(276, 508)
+        Me.totalAmount.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalAmount.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.totalAmount.Location = New System.Drawing.Point(5, 548)
         Me.totalAmount.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.totalAmount.Name = "totalAmount"
-        Me.totalAmount.Size = New System.Drawing.Size(91, 13)
+        Me.totalAmount.Size = New System.Drawing.Size(102, 14)
         Me.totalAmount.TabIndex = 49
         Me.totalAmount.Text = "Total: $15,897.36"
         '
         'subtotal
         '
         Me.subtotal.AutoSize = True
-        Me.subtotal.Location = New System.Drawing.Point(261, 442)
+        Me.subtotal.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.subtotal.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.subtotal.Location = New System.Drawing.Point(5, 475)
         Me.subtotal.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.subtotal.Name = "subtotal"
-        Me.subtotal.Size = New System.Drawing.Size(106, 13)
+        Me.subtotal.Size = New System.Drawing.Size(121, 14)
         Me.subtotal.TabIndex = 48
         Me.subtotal.Text = "Subtotal: $15,897.36"
         '
         'taxRate
         '
         Me.taxRate.AutoSize = True
-        Me.taxRate.Location = New System.Drawing.Point(248, 464)
+        Me.taxRate.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.taxRate.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.taxRate.Location = New System.Drawing.Point(5, 499)
         Me.taxRate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.taxRate.Name = "taxRate"
-        Me.taxRate.Size = New System.Drawing.Size(80, 13)
+        Me.taxRate.Size = New System.Drawing.Size(87, 14)
         Me.taxRate.TabIndex = 47
         Me.taxRate.Text = "Tax Rate (%): 0"
         '
@@ -129,11 +145,11 @@ Partial Class HistoricalBillExample
         '
         Me.receiptItemListBox.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.medicalCode, Me.descriptonOfService, Me.quanityOfService, Me.rateOfService, Me.moneyTotal})
         Me.receiptItemListBox.HideSelection = False
-        Me.receiptItemListBox.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1})
-        Me.receiptItemListBox.Location = New System.Drawing.Point(7, 294)
+        Me.receiptItemListBox.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem2})
+        Me.receiptItemListBox.Location = New System.Drawing.Point(8, 317)
         Me.receiptItemListBox.Margin = New System.Windows.Forms.Padding(2)
         Me.receiptItemListBox.Name = "receiptItemListBox"
-        Me.receiptItemListBox.Size = New System.Drawing.Size(413, 136)
+        Me.receiptItemListBox.Size = New System.Drawing.Size(481, 146)
         Me.receiptItemListBox.TabIndex = 46
         Me.receiptItemListBox.UseCompatibleStateImageBehavior = False
         Me.receiptItemListBox.View = System.Windows.Forms.View.Details
@@ -166,111 +182,130 @@ Partial Class HistoricalBillExample
         'patientCityStateZip
         '
         Me.patientCityStateZip.AutoSize = True
-        Me.patientCityStateZip.Location = New System.Drawing.Point(4, 265)
+        Me.patientCityStateZip.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientCityStateZip.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.patientCityStateZip.Location = New System.Drawing.Point(5, 288)
         Me.patientCityStateZip.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientCityStateZip.Name = "patientCityStateZip"
-        Me.patientCityStateZip.Size = New System.Drawing.Size(194, 13)
+        Me.patientCityStateZip.Size = New System.Drawing.Size(215, 14)
         Me.patientCityStateZip.TabIndex = 45
         Me.patientCityStateZip.Text = "City/State/ZIP: Something, WA C500-A"
         '
         'patientStreetAddress
         '
         Me.patientStreetAddress.AutoSize = True
-        Me.patientStreetAddress.Location = New System.Drawing.Point(4, 244)
+        Me.patientStreetAddress.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientStreetAddress.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.patientStreetAddress.Location = New System.Drawing.Point(5, 266)
         Me.patientStreetAddress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientStreetAddress.Name = "patientStreetAddress"
-        Me.patientStreetAddress.Size = New System.Drawing.Size(181, 13)
+        Me.patientStreetAddress.Size = New System.Drawing.Size(208, 14)
         Me.patientStreetAddress.TabIndex = 44
         Me.patientStreetAddress.Text = "Street Address: C-137 Multiverse Rd."
         '
         'patientName
         '
         Me.patientName.AutoSize = True
-        Me.patientName.Location = New System.Drawing.Point(4, 225)
+        Me.patientName.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientName.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.patientName.Location = New System.Drawing.Point(5, 245)
         Me.patientName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientName.Name = "patientName"
-        Me.patientName.Size = New System.Drawing.Size(111, 13)
+        Me.patientName.Size = New System.Drawing.Size(120, 14)
         Me.patientName.TabIndex = 43
         Me.patientName.Text = "Name: Rick Sanchez "
         '
         'patientInformation
         '
         Me.patientInformation.AutoSize = True
-        Me.patientInformation.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.patientInformation.Location = New System.Drawing.Point(4, 203)
+        Me.patientInformation.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.patientInformation.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.patientInformation.Location = New System.Drawing.Point(5, 222)
         Me.patientInformation.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientInformation.Name = "patientInformation"
-        Me.patientInformation.Size = New System.Drawing.Size(118, 13)
+        Me.patientInformation.Size = New System.Drawing.Size(114, 14)
         Me.patientInformation.TabIndex = 42
         Me.patientInformation.Text = "Patient Information:"
         '
         'officeCityStateZip
         '
         Me.officeCityStateZip.AutoSize = True
-        Me.officeCityStateZip.Location = New System.Drawing.Point(4, 167)
+        Me.officeCityStateZip.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.officeCityStateZip.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.officeCityStateZip.Location = New System.Drawing.Point(5, 183)
         Me.officeCityStateZip.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.officeCityStateZip.Name = "officeCityStateZip"
-        Me.officeCityStateZip.Size = New System.Drawing.Size(171, 13)
+        Me.officeCityStateZip.Size = New System.Drawing.Size(189, 14)
         Me.officeCityStateZip.TabIndex = 41
         Me.officeCityStateZip.Text = "City/State/ZIP: Tucson, AZ 85743"
         '
         'officeAddress
         '
         Me.officeAddress.AutoSize = True
-        Me.officeAddress.Location = New System.Drawing.Point(4, 147)
+        Me.officeAddress.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.officeAddress.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.officeAddress.Location = New System.Drawing.Point(5, 161)
         Me.officeAddress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.officeAddress.Name = "officeAddress"
-        Me.officeAddress.Size = New System.Drawing.Size(179, 13)
+        Me.officeAddress.Size = New System.Drawing.Size(204, 14)
         Me.officeAddress.TabIndex = 40
         Me.officeAddress.Text = "Office Address: 1235 Something Rd."
         '
         'licenseNumber
         '
         Me.licenseNumber.AutoSize = True
-        Me.licenseNumber.Location = New System.Drawing.Point(4, 125)
+        Me.licenseNumber.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.licenseNumber.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.licenseNumber.Location = New System.Drawing.Point(5, 138)
         Me.licenseNumber.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.licenseNumber.Name = "licenseNumber"
-        Me.licenseNumber.Size = New System.Drawing.Size(126, 13)
+        Me.licenseNumber.Size = New System.Drawing.Size(144, 14)
         Me.licenseNumber.TabIndex = 39
         Me.licenseNumber.Text = "License Number: 123456"
         '
         'doctorsName
         '
         Me.doctorsName.AutoSize = True
-        Me.doctorsName.Location = New System.Drawing.Point(4, 105)
+        Me.doctorsName.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.doctorsName.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.doctorsName.Location = New System.Drawing.Point(5, 116)
         Me.doctorsName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.doctorsName.Name = "doctorsName"
-        Me.doctorsName.Size = New System.Drawing.Size(128, 13)
+        Me.doctorsName.Size = New System.Drawing.Size(144, 14)
         Me.doctorsName.TabIndex = 38
         Me.doctorsName.Text = "Practitoner Name: Bechie"
         '
         'dateLable
         '
         Me.dateLable.AutoSize = True
-        Me.dateLable.Location = New System.Drawing.Point(286, 65)
+        Me.dateLable.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dateLable.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.dateLable.Location = New System.Drawing.Point(289, 116)
         Me.dateLable.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.dateLable.Name = "dateLable"
-        Me.dateLable.Size = New System.Drawing.Size(94, 13)
+        Me.dateLable.Size = New System.Drawing.Size(103, 14)
         Me.dateLable.TabIndex = 37
         Me.dateLable.Text = "Date: 04/07/2020"
         '
         'recitptNumber
         '
         Me.recitptNumber.AutoSize = True
-        Me.recitptNumber.Location = New System.Drawing.Point(423, -15)
+        Me.recitptNumber.Location = New System.Drawing.Point(493, -16)
         Me.recitptNumber.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.recitptNumber.Name = "recitptNumber"
-        Me.recitptNumber.Size = New System.Drawing.Size(87, 13)
+        Me.recitptNumber.Size = New System.Drawing.Size(98, 14)
         Me.recitptNumber.TabIndex = 36
         Me.recitptNumber.Text = "Receipt Number:"
         '
         'nameOfInstitution
         '
         Me.nameOfInstitution.AutoSize = True
-        Me.nameOfInstitution.Location = New System.Drawing.Point(4, 85)
+        Me.nameOfInstitution.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.nameOfInstitution.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.nameOfInstitution.Location = New System.Drawing.Point(5, 95)
         Me.nameOfInstitution.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.nameOfInstitution.Name = "nameOfInstitution"
-        Me.nameOfInstitution.Size = New System.Drawing.Size(188, 13)
+        Me.nameOfInstitution.Size = New System.Drawing.Size(216, 14)
         Me.nameOfInstitution.TabIndex = 35
         Me.nameOfInstitution.Text = "Name of Medical Institution: Pima 299 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -278,7 +313,7 @@ Partial Class HistoricalBillExample
         '
         Me.medicalBillReceiptHeader.AutoSize = True
         Me.medicalBillReceiptHeader.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.medicalBillReceiptHeader.Location = New System.Drawing.Point(309, -44)
+        Me.medicalBillReceiptHeader.Location = New System.Drawing.Point(360, -47)
         Me.medicalBillReceiptHeader.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.medicalBillReceiptHeader.Name = "medicalBillReceiptHeader"
         Me.medicalBillReceiptHeader.Size = New System.Drawing.Size(174, 24)
@@ -287,33 +322,62 @@ Partial Class HistoricalBillExample
         '
         'Label2
         '
+        Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(121, 9)
+        Me.Label2.Font = New System.Drawing.Font("DejaVu Serif Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label2.Location = New System.Drawing.Point(229, 25)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(174, 24)
+        Me.Label2.Size = New System.Drawing.Size(203, 24)
         Me.Label2.TabIndex = 54
         Me.Label2.Text = "Medical Bill Receipt"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(235, 43)
+        Me.Label3.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.Label3.Location = New System.Drawing.Point(289, 95)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(157, 13)
+        Me.Label3.Size = New System.Drawing.Size(176, 14)
         Me.Label3.TabIndex = 55
         Me.Label3.Text = "Receipt Number:  RC56813A3  "
         '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.White
+        Me.TableLayoutPanel1.ColumnCount = 2
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 31.80914!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 68.19086!))
+        Me.TableLayoutPanel1.Controls.Add(Me.Label2, 1, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 0, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(503, 75)
+        Me.TableLayoutPanel1.TabIndex = 56
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(153, 69)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 55
+        Me.PictureBox1.TabStop = False
+        '
         'HistoricalBillExample
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SteelBlue
-        Me.ClientSize = New System.Drawing.Size(431, 571)
+        Me.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.ClientSize = New System.Drawing.Size(503, 615)
+        Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.insurancePayment)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.paymentMethod)
@@ -334,8 +398,13 @@ Partial Class HistoricalBillExample
         Me.Controls.Add(Me.recitptNumber)
         Me.Controls.Add(Me.nameOfInstitution)
         Me.Controls.Add(Me.medicalBillReceiptHeader)
+        Me.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "HistoricalBillExample"
         Me.Text = "Recipt"
+        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.TableLayoutPanel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -368,4 +437,6 @@ Partial Class HistoricalBillExample
     Friend WithEvents medicalBillReceiptHeader As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

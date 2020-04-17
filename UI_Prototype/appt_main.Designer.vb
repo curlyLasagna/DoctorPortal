@@ -72,7 +72,7 @@ Partial Class appt_main
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(122, 23)
         Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Cancel appointment"
+        Me.Button3.Text = "Cancel"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4

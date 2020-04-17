@@ -373,6 +373,7 @@ Partial Class ReciptPage
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "ReciptPage"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Recipt"
         Me.TopMost = True
         Me.TableLayoutPanel1.ResumeLayout(False)

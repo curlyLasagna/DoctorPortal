@@ -182,7 +182,7 @@ Partial Class MainMenu
         Me.AboutMeSubMenu.Controls.Add(Me.Button8)
         Me.AboutMeSubMenu.Controls.Add(Me.Button4)
         Me.AboutMeSubMenu.Controls.Add(Me.Button1)
-        Me.AboutMeSubMenu.Location = New System.Drawing.Point(122, 97)
+        Me.AboutMeSubMenu.Location = New System.Drawing.Point(145, 97)
         Me.AboutMeSubMenu.Name = "AboutMeSubMenu"
         Me.AboutMeSubMenu.Size = New System.Drawing.Size(130, 0)
         Me.AboutMeSubMenu.TabIndex = 11

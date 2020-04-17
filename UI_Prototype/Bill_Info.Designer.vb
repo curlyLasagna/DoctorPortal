@@ -74,7 +74,7 @@ Partial Class Bill_Info
         '
         Me.historicalBillBtn.BackColor = System.Drawing.Color.WhiteSmoke
         Me.historicalBillBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.historicalBillBtn.Location = New System.Drawing.Point(184, 95)
+        Me.historicalBillBtn.Location = New System.Drawing.Point(187, 95)
         Me.historicalBillBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.historicalBillBtn.Name = "historicalBillBtn"
         Me.historicalBillBtn.Size = New System.Drawing.Size(89, 23)
@@ -86,10 +86,10 @@ Partial Class Bill_Info
         '
         Me.previousBtn.BackColor = System.Drawing.Color.WhiteSmoke
         Me.previousBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.previousBtn.Location = New System.Drawing.Point(135, 122)
+        Me.previousBtn.Location = New System.Drawing.Point(135, 128)
         Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.previousBtn.Name = "previousBtn"
-        Me.previousBtn.Size = New System.Drawing.Size(74, 29)
+        Me.previousBtn.Size = New System.Drawing.Size(74, 23)
         Me.previousBtn.TabIndex = 4
         Me.previousBtn.Text = "Previous"
         Me.previousBtn.UseVisualStyleBackColor = False
@@ -123,7 +123,7 @@ Partial Class Bill_Info
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SteelBlue
+        Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(329, 162)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.previousBtn)

@@ -102,10 +102,10 @@ Partial Class MedicationRefilling
         '
         Me.medicationList.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.medicationList.AutoSize = True
-        Me.medicationList.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.medicationList.Location = New System.Drawing.Point(262, 20)
+        Me.medicationList.Font = New System.Drawing.Font("DejaVu Serif Condensed", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.medicationList.Location = New System.Drawing.Point(224, 17)
         Me.medicationList.Name = "medicationList"
-        Me.medicationList.Size = New System.Drawing.Size(139, 24)
+        Me.medicationList.Size = New System.Drawing.Size(216, 31)
         Me.medicationList.TabIndex = 13
         Me.medicationList.Text = "Medication List "
         '
@@ -194,6 +194,7 @@ Partial Class MedicationRefilling
         Me.Controls.Add(Me.reciptNumber)
         Me.Controls.Add(Me.dateLabel)
         Me.Controls.Add(Me.medicationListBox)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MedicationRefilling"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
