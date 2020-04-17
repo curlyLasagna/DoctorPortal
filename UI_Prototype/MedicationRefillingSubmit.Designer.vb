@@ -30,7 +30,7 @@ Partial Class MedicationRefillingSubmit
         'yesBtn
         '
         Me.yesBtn.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.yesBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.yesBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.yesBtn.Location = New System.Drawing.Point(56, 68)
         Me.yesBtn.Name = "yesBtn"
         Me.yesBtn.Size = New System.Drawing.Size(75, 23)
@@ -41,18 +41,18 @@ Partial Class MedicationRefillingSubmit
         'areYouSureLabel
         '
         Me.areYouSureLabel.AutoSize = True
-        Me.areYouSureLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.areYouSureLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.areYouSureLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.areYouSureLabel.Location = New System.Drawing.Point(21, 31)
         Me.areYouSureLabel.Name = "areYouSureLabel"
-        Me.areYouSureLabel.Size = New System.Drawing.Size(316, 18)
+        Me.areYouSureLabel.Size = New System.Drawing.Size(299, 18)
         Me.areYouSureLabel.TabIndex = 1
         Me.areYouSureLabel.Text = "Are you sure you want to refill Ciprofloxacin?"
         '
         'noBtn
         '
         Me.noBtn.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.noBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.noBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.noBtn.Location = New System.Drawing.Point(215, 68)
         Me.noBtn.Name = "noBtn"
         Me.noBtn.Size = New System.Drawing.Size(75, 23)
@@ -69,7 +69,6 @@ Partial Class MedicationRefillingSubmit
         Me.Controls.Add(Me.noBtn)
         Me.Controls.Add(Me.areYouSureLabel)
         Me.Controls.Add(Me.yesBtn)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "MedicationRefillingSubmit"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Medication Refilling Submit"

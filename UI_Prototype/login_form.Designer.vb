@@ -55,7 +55,7 @@ Partial Class login_form
         '
         'UsernameLabel
         '
-        Me.UsernameLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UsernameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UsernameLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.UsernameLabel.Location = New System.Drawing.Point(172, 24)
         Me.UsernameLabel.Name = "UsernameLabel"
@@ -66,7 +66,7 @@ Partial Class login_form
         '
         'PasswordLabel
         '
-        Me.PasswordLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PasswordLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PasswordLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.PasswordLabel.Location = New System.Drawing.Point(172, 81)
         Me.PasswordLabel.Name = "PasswordLabel"
@@ -144,7 +144,6 @@ Partial Class login_form
         Me.Controls.Add(Me.PasswordLabel)
         Me.Controls.Add(Me.UsernameLabel)
         Me.Controls.Add(Me.LogoPictureBox)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "login_form"

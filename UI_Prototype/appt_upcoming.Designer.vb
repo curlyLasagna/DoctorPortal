@@ -31,11 +31,11 @@ Partial Class appt_upcoming
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label1.Location = New System.Drawing.Point(41, 28)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(238, 24)
+        Me.Label1.Size = New System.Drawing.Size(234, 25)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Upcoming Appointment"
         '
@@ -56,7 +56,7 @@ Partial Class appt_upcoming
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Button1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(103, 275)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(109, 26)
@@ -74,7 +74,6 @@ Partial Class appt_upcoming
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.Label1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "appt_upcoming"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "appt_upcoming"

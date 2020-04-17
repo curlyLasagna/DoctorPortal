@@ -52,33 +52,33 @@ Partial Class MedicationRefilling
         'amountLable
         '
         Me.amountLable.AutoSize = True
-        Me.amountLable.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.amountLable.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.amountLable.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.amountLable.Location = New System.Drawing.Point(132, 140)
         Me.amountLable.Name = "amountLable"
-        Me.amountLable.Size = New System.Drawing.Size(59, 18)
+        Me.amountLable.Size = New System.Drawing.Size(60, 18)
         Me.amountLable.TabIndex = 11
         Me.amountLable.Text = "Dosage"
         '
         'reciptNumber
         '
         Me.reciptNumber.AutoSize = True
-        Me.reciptNumber.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.reciptNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.reciptNumber.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.reciptNumber.Location = New System.Drawing.Point(235, 140)
         Me.reciptNumber.Name = "reciptNumber"
-        Me.reciptNumber.Size = New System.Drawing.Size(32, 18)
+        Me.reciptNumber.Size = New System.Drawing.Size(31, 18)
         Me.reciptNumber.TabIndex = 10
         Me.reciptNumber.Text = "Qty"
         '
         'dateLabel
         '
         Me.dateLabel.AutoSize = True
-        Me.dateLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dateLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dateLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.dateLabel.Location = New System.Drawing.Point(12, 140)
         Me.dateLabel.Name = "dateLabel"
-        Me.dateLabel.Size = New System.Drawing.Size(53, 18)
+        Me.dateLabel.Size = New System.Drawing.Size(52, 18)
         Me.dateLabel.TabIndex = 8
         Me.dateLabel.Text = "Name "
         '
@@ -87,69 +87,69 @@ Partial Class MedicationRefilling
         Me.medicationListBox.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.medicationListBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.medicationListBox.ColumnWidth = 2
-        Me.medicationListBox.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.medicationListBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.medicationListBox.FormattingEnabled = True
-        Me.medicationListBox.ItemHeight = 15
+        Me.medicationListBox.ItemHeight = 16
         Me.medicationListBox.Items.AddRange(New Object() {"Ciprofloxacin            100mg              30           5                   Bech" &
                 "ie                CVS", "", "Pantoprazole             40mg              120          10                  Lewis" &
                 "                  CVS"})
         Me.medicationListBox.Location = New System.Drawing.Point(15, 161)
         Me.medicationListBox.Name = "medicationListBox"
-        Me.medicationListBox.Size = New System.Drawing.Size(506, 257)
+        Me.medicationListBox.Size = New System.Drawing.Size(506, 242)
         Me.medicationListBox.TabIndex = 7
         '
         'medicationList
         '
         Me.medicationList.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.medicationList.AutoSize = True
-        Me.medicationList.Font = New System.Drawing.Font("DejaVu Serif Condensed", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.medicationList.Location = New System.Drawing.Point(224, 17)
+        Me.medicationList.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.medicationList.Location = New System.Drawing.Point(231, 17)
         Me.medicationList.Name = "medicationList"
-        Me.medicationList.Size = New System.Drawing.Size(216, 31)
+        Me.medicationList.Size = New System.Drawing.Size(202, 31)
         Me.medicationList.TabIndex = 13
         Me.medicationList.Text = "Medication List "
         '
         'pharmacy
         '
         Me.pharmacy.AutoSize = True
-        Me.pharmacy.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pharmacy.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pharmacy.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.pharmacy.Location = New System.Drawing.Point(449, 140)
         Me.pharmacy.Name = "pharmacy"
-        Me.pharmacy.Size = New System.Drawing.Size(81, 18)
+        Me.pharmacy.Size = New System.Drawing.Size(79, 18)
         Me.pharmacy.TabIndex = 14
         Me.pharmacy.Text = "Pharmacy "
         '
         'doctor
         '
         Me.doctor.AutoSize = True
-        Me.doctor.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.doctor.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.doctor.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.doctor.Location = New System.Drawing.Point(356, 122)
         Me.doctor.Name = "doctor"
-        Me.doctor.Size = New System.Drawing.Size(87, 36)
+        Me.doctor.Size = New System.Drawing.Size(82, 36)
         Me.doctor.TabIndex = 15
         Me.doctor.Text = "Prescribing" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "   Doctor"
         '
         'refill
         '
         Me.refill.AutoSize = True
-        Me.refill.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.refill.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.refill.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.refill.Location = New System.Drawing.Point(284, 122)
         Me.refill.Name = "refill"
-        Me.refill.Size = New System.Drawing.Size(50, 36)
+        Me.refill.Size = New System.Drawing.Size(48, 36)
         Me.refill.TabIndex = 16
         Me.refill.Text = "Refills" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " Left"
         '
         'directions
         '
         Me.directions.AutoSize = True
-        Me.directions.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.directions.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.directions.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.directions.Location = New System.Drawing.Point(12, 86)
         Me.directions.Name = "directions"
-        Me.directions.Size = New System.Drawing.Size(500, 18)
+        Me.directions.Size = New System.Drawing.Size(471, 18)
         Me.directions.TabIndex = 17
         Me.directions.Text = "Doubel left click on the medication you want to refill from the list below "
         '
@@ -194,7 +194,6 @@ Partial Class MedicationRefilling
         Me.Controls.Add(Me.reciptNumber)
         Me.Controls.Add(Me.dateLabel)
         Me.Controls.Add(Me.medicationListBox)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MedicationRefilling"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

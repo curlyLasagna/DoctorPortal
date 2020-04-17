@@ -46,11 +46,11 @@ Partial Class AccountInfo
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label1.Location = New System.Drawing.Point(12, 97)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(54, 19)
+        Me.Label1.Size = New System.Drawing.Size(53, 20)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Email"
         '
@@ -73,10 +73,10 @@ Partial Class AccountInfo
         '
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("DejaVu Serif Condensed", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(208, 24)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(215, 24)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(214, 28)
+        Me.Label2.Size = New System.Drawing.Size(200, 29)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Client information"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -94,10 +94,10 @@ Partial Class AccountInfo
         'email_textBox
         '
         Me.email_textBox.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.email_textBox.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.email_textBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.email_textBox.Location = New System.Drawing.Point(16, 119)
         Me.email_textBox.Name = "email_textBox"
-        Me.email_textBox.Size = New System.Drawing.Size(170, 23)
+        Me.email_textBox.Size = New System.Drawing.Size(170, 22)
         Me.email_textBox.TabIndex = 3
         Me.email_textBox.Text = "BobMcBobson@email.com"
         Me.email_textBox.UseWaitCursor = True
@@ -105,62 +105,62 @@ Partial Class AccountInfo
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("DejaVu Serif Condensed", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label3.Location = New System.Drawing.Point(12, 147)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(95, 19)
+        Me.Label3.Size = New System.Drawing.Size(94, 20)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "First name"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("DejaVu Serif Condensed", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label4.Location = New System.Drawing.Point(12, 202)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(91, 19)
+        Me.Label4.Size = New System.Drawing.Size(93, 20)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Last name"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("DejaVu Serif Condensed", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label5.Location = New System.Drawing.Point(262, 202)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(67, 19)
+        Me.Label5.Size = New System.Drawing.Size(69, 20)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Gender"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("DejaVu Serif Condensed", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label6.Location = New System.Drawing.Point(262, 97)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(112, 19)
+        Me.Label6.Size = New System.Drawing.Size(110, 20)
         Me.Label6.TabIndex = 7
         Me.Label6.Text = "Date of birth"
         '
         'fName_textBox
         '
-        Me.fName_textBox.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.fName_textBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fName_textBox.Location = New System.Drawing.Point(16, 169)
         Me.fName_textBox.Name = "fName_textBox"
-        Me.fName_textBox.Size = New System.Drawing.Size(170, 23)
+        Me.fName_textBox.Size = New System.Drawing.Size(170, 22)
         Me.fName_textBox.TabIndex = 8
         Me.fName_textBox.Text = "Bob"
         '
         'TextBox4
         '
-        Me.TextBox4.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.Location = New System.Drawing.Point(16, 224)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(170, 23)
+        Me.TextBox4.Size = New System.Drawing.Size(170, 22)
         Me.TextBox4.TabIndex = 10
         Me.TextBox4.Text = "McBobson"
         '
@@ -168,18 +168,18 @@ Partial Class AccountInfo
         '
         Me.DateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.DateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
-        Me.DateTimePicker1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DateTimePicker1.Location = New System.Drawing.Point(266, 119)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(108, 23)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(108, 22)
         Me.DateTimePicker1.TabIndex = 12
         Me.DateTimePicker1.Value = New Date(1995, 4, 16, 22, 2, 0, 0)
         '
         'previous_Button
         '
         Me.previous_Button.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.previous_Button.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.previous_Button.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.previous_Button.Location = New System.Drawing.Point(397, 257)
         Me.previous_Button.Name = "previous_Button"
         Me.previous_Button.Size = New System.Drawing.Size(84, 30)
@@ -190,7 +190,7 @@ Partial Class AccountInfo
         'gender_comboBox
         '
         Me.gender_comboBox.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.gender_comboBox.Font = New System.Drawing.Font("DejaVu Serif Condensed", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.gender_comboBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gender_comboBox.FormattingEnabled = True
         Me.gender_comboBox.Items.AddRange(New Object() {"M", "F", "Other"})
         Me.gender_comboBox.Location = New System.Drawing.Point(266, 224)
@@ -201,20 +201,20 @@ Partial Class AccountInfo
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("DejaVu Serif Condensed", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label7.Location = New System.Drawing.Point(262, 147)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(126, 19)
+        Me.Label7.Size = New System.Drawing.Size(125, 20)
         Me.Label7.TabIndex = 15
         Me.Label7.Text = "Phone number"
         '
         'TextBox1
         '
-        Me.TextBox1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(266, 169)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(122, 23)
+        Me.TextBox1.Size = New System.Drawing.Size(122, 22)
         Me.TextBox1.TabIndex = 16
         Me.TextBox1.Text = "483-8391-283"
         '
@@ -238,7 +238,6 @@ Partial Class AccountInfo
         Me.Controls.Add(Me.email_textBox)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "AccountInfo"
         Me.Text = "AccountInfo"
         Me.TableLayoutPanel1.ResumeLayout(False)

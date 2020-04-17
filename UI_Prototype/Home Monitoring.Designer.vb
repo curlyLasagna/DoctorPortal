@@ -39,60 +39,60 @@ Partial Class Home_Monitoring
         'dateLabel
         '
         Me.dateLabel.AutoSize = True
-        Me.dateLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dateLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dateLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.dateLabel.Location = New System.Drawing.Point(2, 20)
         Me.dateLabel.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.dateLabel.Name = "dateLabel"
-        Me.dateLabel.Size = New System.Drawing.Size(41, 15)
+        Me.dateLabel.Size = New System.Drawing.Size(45, 16)
         Me.dateLabel.TabIndex = 0
         Me.dateLabel.Text = "Date:"
         '
         'timeLabel
         '
         Me.timeLabel.AutoSize = True
-        Me.timeLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.timeLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.timeLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.timeLabel.Location = New System.Drawing.Point(297, 20)
         Me.timeLabel.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.timeLabel.Name = "timeLabel"
-        Me.timeLabel.Size = New System.Drawing.Size(43, 15)
+        Me.timeLabel.Size = New System.Drawing.Size(47, 16)
         Me.timeLabel.TabIndex = 1
         Me.timeLabel.Text = "Time:"
         '
         'weightLabel
         '
         Me.weightLabel.AutoSize = True
-        Me.weightLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.weightLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.weightLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.weightLabel.Location = New System.Drawing.Point(81, 144)
         Me.weightLabel.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.weightLabel.Name = "weightLabel"
-        Me.weightLabel.Size = New System.Drawing.Size(60, 15)
+        Me.weightLabel.Size = New System.Drawing.Size(64, 16)
         Me.weightLabel.TabIndex = 4
         Me.weightLabel.Text = "Weight: "
         '
         'bgLabel
         '
         Me.bgLabel.AutoSize = True
-        Me.bgLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bgLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.bgLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.bgLabel.Location = New System.Drawing.Point(81, 108)
         Me.bgLabel.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.bgLabel.Name = "bgLabel"
-        Me.bgLabel.Size = New System.Drawing.Size(105, 15)
+        Me.bgLabel.Size = New System.Drawing.Size(114, 16)
         Me.bgLabel.TabIndex = 5
         Me.bgLabel.Text = "Blood Glucose:"
         '
         'bpLabel
         '
         Me.bpLabel.AutoSize = True
-        Me.bpLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bpLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.bpLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.bpLabel.Location = New System.Drawing.Point(81, 71)
         Me.bpLabel.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.bpLabel.Name = "bpLabel"
-        Me.bpLabel.Size = New System.Drawing.Size(111, 15)
+        Me.bpLabel.Size = New System.Drawing.Size(119, 16)
         Me.bpLabel.TabIndex = 6
         Me.bpLabel.Text = "Blood Pressure:"
         '
@@ -123,7 +123,7 @@ Partial Class Home_Monitoring
         'submitButton
         '
         Me.submitButton.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.submitButton.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.submitButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.submitButton.Location = New System.Drawing.Point(300, 194)
         Me.submitButton.Name = "submitButton"
         Me.submitButton.Size = New System.Drawing.Size(99, 34)
@@ -134,7 +134,7 @@ Partial Class Home_Monitoring
         'previousBtn
         '
         Me.previousBtn.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.previousBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.previousBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.previousBtn.Location = New System.Drawing.Point(84, 194)
         Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.previousBtn.Name = "previousBtn"
@@ -145,19 +145,19 @@ Partial Class Home_Monitoring
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Location = New System.Drawing.Point(51, 12)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(238, 23)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(238, 22)
         Me.DateTimePicker1.TabIndex = 14
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time
         Me.DateTimePicker2.Location = New System.Drawing.Point(348, 11)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(125, 23)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(125, 22)
         Me.DateTimePicker2.TabIndex = 15
         '
         'Home_Monitoring
@@ -179,7 +179,6 @@ Partial Class Home_Monitoring
         Me.Controls.Add(Me.timeLabel)
         Me.Controls.Add(Me.dateLabel)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "Home_Monitoring"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

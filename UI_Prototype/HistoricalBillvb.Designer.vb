@@ -40,10 +40,10 @@ Partial Class historicalBill
         '
         Me.historicalBillViewer.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.historicalBillViewer.AutoSize = True
-        Me.historicalBillViewer.Font = New System.Drawing.Font("DejaVu Serif Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.historicalBillViewer.Location = New System.Drawing.Point(165, 13)
+        Me.historicalBillViewer.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.historicalBillViewer.Location = New System.Drawing.Point(168, 12)
         Me.historicalBillViewer.Name = "historicalBillViewer"
-        Me.historicalBillViewer.Size = New System.Drawing.Size(148, 48)
+        Me.historicalBillViewer.Size = New System.Drawing.Size(142, 50)
         Me.historicalBillViewer.TabIndex = 0
         Me.historicalBillViewer.Text = "Historical Bill " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "     Viewer"
         '
@@ -59,44 +59,44 @@ Partial Class historicalBill
         'dateLabel
         '
         Me.dateLabel.AutoSize = True
-        Me.dateLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dateLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dateLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.dateLabel.Location = New System.Drawing.Point(12, 95)
         Me.dateLabel.Name = "dateLabel"
-        Me.dateLabel.Size = New System.Drawing.Size(37, 15)
+        Me.dateLabel.Size = New System.Drawing.Size(41, 16)
         Me.dateLabel.TabIndex = 2
         Me.dateLabel.Text = "Date"
         '
         'doctorName
         '
         Me.doctorName.AutoSize = True
-        Me.doctorName.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.doctorName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.doctorName.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.doctorName.Location = New System.Drawing.Point(91, 95)
         Me.doctorName.Name = "doctorName"
-        Me.doctorName.Size = New System.Drawing.Size(51, 15)
+        Me.doctorName.Size = New System.Drawing.Size(54, 16)
         Me.doctorName.TabIndex = 3
         Me.doctorName.Text = "Doctor"
         '
         'reciptNumber
         '
         Me.reciptNumber.AutoSize = True
-        Me.reciptNumber.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.reciptNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.reciptNumber.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.reciptNumber.Location = New System.Drawing.Point(172, 95)
         Me.reciptNumber.Name = "reciptNumber"
-        Me.reciptNumber.Size = New System.Drawing.Size(105, 15)
+        Me.reciptNumber.Size = New System.Drawing.Size(111, 16)
         Me.reciptNumber.TabIndex = 4
         Me.reciptNumber.Text = "Recipt Number"
         '
         'amountLable
         '
         Me.amountLable.AutoSize = True
-        Me.amountLable.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.amountLable.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.amountLable.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.amountLable.Location = New System.Drawing.Point(287, 95)
         Me.amountLable.Name = "amountLable"
-        Me.amountLable.Size = New System.Drawing.Size(59, 15)
+        Me.amountLable.Size = New System.Drawing.Size(59, 16)
         Me.amountLable.TabIndex = 5
         Me.amountLable.Text = "Amount"
         '
@@ -148,7 +148,6 @@ Partial Class historicalBill
         Me.Controls.Add(Me.doctorName)
         Me.Controls.Add(Me.dateLabel)
         Me.Controls.Add(Me.reciptListBox)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "historicalBill"
         Me.Text = "Historical Bill"
         Me.TableLayoutPanel1.ResumeLayout(False)

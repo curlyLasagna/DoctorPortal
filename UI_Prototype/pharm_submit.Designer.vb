@@ -46,11 +46,11 @@ Partial Class pharm_submit
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("DejaVu Serif Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label3.Location = New System.Drawing.Point(28, 82)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(236, 24)
+        Me.Label3.Size = New System.Drawing.Size(242, 25)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Data has been updated."
         '
@@ -82,7 +82,7 @@ Partial Class pharm_submit
         'OkButton
         '
         Me.OkButton.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.OkButton.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OkButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OkButton.Location = New System.Drawing.Point(94, 121)
         Me.OkButton.Name = "OkButton"
         Me.OkButton.Size = New System.Drawing.Size(97, 34)
@@ -100,7 +100,6 @@ Partial Class pharm_submit
         Me.Controls.Add(Me.OkButton)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label3)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "pharm_submit"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "pharm_submit"

@@ -61,7 +61,7 @@ Partial Class PaymentSystem
         '
         'previousBtn
         '
-        Me.previousBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.previousBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.previousBtn.Location = New System.Drawing.Point(2, 265)
         Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.previousBtn.Name = "previousBtn"
@@ -73,60 +73,60 @@ Partial Class PaymentSystem
         'firstName
         '
         Me.firstName.AutoSize = True
-        Me.firstName.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firstName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.firstName.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.firstName.Location = New System.Drawing.Point(17, 16)
         Me.firstName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.firstName.Name = "firstName"
-        Me.firstName.Size = New System.Drawing.Size(77, 15)
+        Me.firstName.Size = New System.Drawing.Size(80, 16)
         Me.firstName.TabIndex = 2
         Me.firstName.Text = "First name"
         '
         'addressTwo
         '
         Me.addressTwo.AutoSize = True
-        Me.addressTwo.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addressTwo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addressTwo.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.addressTwo.Location = New System.Drawing.Point(23, 90)
         Me.addressTwo.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.addressTwo.Name = "addressTwo"
-        Me.addressTwo.Size = New System.Drawing.Size(71, 15)
+        Me.addressTwo.Size = New System.Drawing.Size(78, 16)
         Me.addressTwo.TabIndex = 3
         Me.addressTwo.Text = "Address 2"
         '
         'addressOne
         '
         Me.addressOne.AutoSize = True
-        Me.addressOne.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.addressOne.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addressOne.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.addressOne.Location = New System.Drawing.Point(23, 66)
         Me.addressOne.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.addressOne.Name = "addressOne"
-        Me.addressOne.Size = New System.Drawing.Size(71, 15)
+        Me.addressOne.Size = New System.Drawing.Size(78, 16)
         Me.addressOne.TabIndex = 4
         Me.addressOne.Text = "Address 1"
         '
         'middleIntial
         '
         Me.middleIntial.AutoSize = True
-        Me.middleIntial.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.middleIntial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.middleIntial.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.middleIntial.Location = New System.Drawing.Point(60, 39)
         Me.middleIntial.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.middleIntial.Name = "middleIntial"
-        Me.middleIntial.Size = New System.Drawing.Size(33, 15)
+        Me.middleIntial.Size = New System.Drawing.Size(32, 16)
         Me.middleIntial.TabIndex = 5
         Me.middleIntial.Text = "M.I."
         '
         'lastName
         '
         Me.lastName.AutoSize = True
-        Me.lastName.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lastName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lastName.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.lastName.Location = New System.Drawing.Point(224, 14)
         Me.lastName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lastName.Name = "lastName"
-        Me.lastName.Size = New System.Drawing.Size(75, 15)
+        Me.lastName.Size = New System.Drawing.Size(79, 16)
         Me.lastName.TabIndex = 6
         Me.lastName.Text = "Last name"
         '
@@ -173,24 +173,24 @@ Partial Class PaymentSystem
         'zipCode
         '
         Me.zipCode.AutoSize = True
-        Me.zipCode.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.zipCode.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.zipCode.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.zipCode.Location = New System.Drawing.Point(28, 163)
         Me.zipCode.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.zipCode.Name = "zipCode"
-        Me.zipCode.Size = New System.Drawing.Size(64, 15)
+        Me.zipCode.Size = New System.Drawing.Size(71, 16)
         Me.zipCode.TabIndex = 12
         Me.zipCode.Text = "Zip Code"
         '
         'state
         '
         Me.state.AutoSize = True
-        Me.state.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.state.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.state.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.state.Location = New System.Drawing.Point(54, 139)
         Me.state.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.state.Name = "state"
-        Me.state.Size = New System.Drawing.Size(40, 15)
+        Me.state.Size = New System.Drawing.Size(44, 16)
         Me.state.TabIndex = 13
         Me.state.Text = "State"
         '
@@ -231,12 +231,12 @@ Partial Class PaymentSystem
         'cardNumber
         '
         Me.cardNumber.AutoSize = True
-        Me.cardNumber.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cardNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cardNumber.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.cardNumber.Location = New System.Drawing.Point(-1, 192)
         Me.cardNumber.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cardNumber.Name = "cardNumber"
-        Me.cardNumber.Size = New System.Drawing.Size(95, 15)
+        Me.cardNumber.Size = New System.Drawing.Size(99, 16)
         Me.cardNumber.TabIndex = 19
         Me.cardNumber.Text = "Card Number"
         '
@@ -275,12 +275,12 @@ Partial Class PaymentSystem
         'cardExpDate
         '
         Me.cardExpDate.AutoSize = True
-        Me.cardExpDate.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cardExpDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cardExpDate.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.cardExpDate.Location = New System.Drawing.Point(25, 221)
         Me.cardExpDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cardExpDate.Name = "cardExpDate"
-        Me.cardExpDate.Size = New System.Drawing.Size(69, 15)
+        Me.cardExpDate.Size = New System.Drawing.Size(75, 16)
         Me.cardExpDate.TabIndex = 27
         Me.cardExpDate.Text = "Exp. Date"
         '
@@ -303,12 +303,12 @@ Partial Class PaymentSystem
         'ccvNumber
         '
         Me.ccvNumber.AutoSize = True
-        Me.ccvNumber.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ccvNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ccvNumber.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.ccvNumber.Location = New System.Drawing.Point(174, 218)
         Me.ccvNumber.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.ccvNumber.Name = "ccvNumber"
-        Me.ccvNumber.Size = New System.Drawing.Size(34, 15)
+        Me.ccvNumber.Size = New System.Drawing.Size(38, 16)
         Me.ccvNumber.TabIndex = 31
         Me.ccvNumber.Text = "CCV"
         '
@@ -322,7 +322,7 @@ Partial Class PaymentSystem
         '
         'submitBtn
         '
-        Me.submitBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.submitBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.submitBtn.Location = New System.Drawing.Point(382, 265)
         Me.submitBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.submitBtn.Name = "submitBtn"
@@ -334,12 +334,12 @@ Partial Class PaymentSystem
         'city
         '
         Me.city.AutoSize = True
-        Me.city.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.city.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.city.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.city.Location = New System.Drawing.Point(60, 114)
         Me.city.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.city.Name = "city"
-        Me.city.Size = New System.Drawing.Size(32, 15)
+        Me.city.Size = New System.Drawing.Size(34, 16)
         Me.city.TabIndex = 34
         Me.city.Text = "City"
         '
@@ -355,60 +355,60 @@ Partial Class PaymentSystem
         'dashNull
         '
         Me.dashNull.AutoSize = True
-        Me.dashNull.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dashNull.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dashNull.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.dashNull.Location = New System.Drawing.Point(145, 163)
         Me.dashNull.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.dashNull.Name = "dashNull"
-        Me.dashNull.Size = New System.Drawing.Size(12, 15)
+        Me.dashNull.Size = New System.Drawing.Size(13, 16)
         Me.dashNull.TabIndex = 36
         Me.dashNull.Text = "-"
         '
         'dashNull5
         '
         Me.dashNull5.AutoSize = True
-        Me.dashNull5.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dashNull5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dashNull5.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.dashNull5.Location = New System.Drawing.Point(126, 218)
         Me.dashNull5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.dashNull5.Name = "dashNull5"
-        Me.dashNull5.Size = New System.Drawing.Size(12, 15)
+        Me.dashNull5.Size = New System.Drawing.Size(13, 16)
         Me.dashNull5.TabIndex = 37
         Me.dashNull5.Text = "-"
         '
         'dashNull2
         '
         Me.dashNull2.AutoSize = True
-        Me.dashNull2.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dashNull2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dashNull2.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.dashNull2.Location = New System.Drawing.Point(280, 189)
         Me.dashNull2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.dashNull2.Name = "dashNull2"
-        Me.dashNull2.Size = New System.Drawing.Size(12, 15)
+        Me.dashNull2.Size = New System.Drawing.Size(13, 16)
         Me.dashNull2.TabIndex = 37
         Me.dashNull2.Text = "-"
         '
         'dashNull4
         '
         Me.dashNull4.AutoSize = True
-        Me.dashNull4.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dashNull4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dashNull4.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.dashNull4.Location = New System.Drawing.Point(146, 187)
         Me.dashNull4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.dashNull4.Name = "dashNull4"
-        Me.dashNull4.Size = New System.Drawing.Size(12, 15)
+        Me.dashNull4.Size = New System.Drawing.Size(13, 16)
         Me.dashNull4.TabIndex = 38
         Me.dashNull4.Text = "-"
         '
         'dashNull3
         '
         Me.dashNull3.AutoSize = True
-        Me.dashNull3.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dashNull3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dashNull3.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.dashNull3.Location = New System.Drawing.Point(215, 189)
         Me.dashNull3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.dashNull3.Name = "dashNull3"
-        Me.dashNull3.Size = New System.Drawing.Size(12, 15)
+        Me.dashNull3.Size = New System.Drawing.Size(13, 16)
         Me.dashNull3.TabIndex = 38
         Me.dashNull3.Text = "-"
         '
@@ -452,7 +452,6 @@ Partial Class PaymentSystem
         Me.Controls.Add(Me.addressTwo)
         Me.Controls.Add(Me.firstName)
         Me.Controls.Add(Me.previousBtn)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "PaymentSystem"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

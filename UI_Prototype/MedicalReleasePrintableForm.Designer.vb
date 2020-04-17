@@ -39,42 +39,42 @@ Partial Class MedicalReleasePrintableForm
         'ptNameLabel
         '
         Me.ptNameLabel.AutoSize = True
-        Me.ptNameLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ptNameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ptNameLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.ptNameLabel.Location = New System.Drawing.Point(11, 19)
         Me.ptNameLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.ptNameLabel.Name = "ptNameLabel"
-        Me.ptNameLabel.Size = New System.Drawing.Size(105, 18)
+        Me.ptNameLabel.Size = New System.Drawing.Size(101, 18)
         Me.ptNameLabel.TabIndex = 0
         Me.ptNameLabel.Text = "Patient Name:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label2.Location = New System.Drawing.Point(11, 178)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(45, 18)
+        Me.Label2.Size = New System.Drawing.Size(43, 18)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Date:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.Label3.Location = New System.Drawing.Point(11, 141)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(131, 18)
+        Me.Label3.Size = New System.Drawing.Size(123, 18)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Patient Signature:"
         '
         'releaseToLabel
         '
-        Me.releaseToLabel.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.releaseToLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.releaseToLabel.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.releaseToLabel.Location = New System.Drawing.Point(11, 70)
         Me.releaseToLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
@@ -87,7 +87,7 @@ Partial Class MedicalReleasePrintableForm
         '
         Me.RichTextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!)
         Me.RichTextBox2.Location = New System.Drawing.Point(14, 214)
-        Me.RichTextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RichTextBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.RichTextBox2.Name = "RichTextBox2"
         Me.RichTextBox2.Size = New System.Drawing.Size(500, 160)
         Me.RichTextBox2.TabIndex = 6
@@ -96,7 +96,7 @@ Partial Class MedicalReleasePrintableForm
         'emptyTxtBox1
         '
         Me.emptyTxtBox1.Location = New System.Drawing.Point(190, 19)
-        Me.emptyTxtBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.emptyTxtBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.emptyTxtBox1.Name = "emptyTxtBox1"
         Me.emptyTxtBox1.Size = New System.Drawing.Size(324, 20)
         Me.emptyTxtBox1.TabIndex = 7
@@ -104,7 +104,7 @@ Partial Class MedicalReleasePrintableForm
         'emptyTxtBox2
         '
         Me.emptyTxtBox2.Location = New System.Drawing.Point(190, 141)
-        Me.emptyTxtBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.emptyTxtBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.emptyTxtBox2.Name = "emptyTxtBox2"
         Me.emptyTxtBox2.Size = New System.Drawing.Size(324, 20)
         Me.emptyTxtBox2.TabIndex = 8
@@ -112,7 +112,7 @@ Partial Class MedicalReleasePrintableForm
         'emptyTxtBox3
         '
         Me.emptyTxtBox3.Location = New System.Drawing.Point(190, 176)
-        Me.emptyTxtBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.emptyTxtBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.emptyTxtBox3.Name = "emptyTxtBox3"
         Me.emptyTxtBox3.Size = New System.Drawing.Size(324, 20)
         Me.emptyTxtBox3.TabIndex = 9
@@ -120,7 +120,7 @@ Partial Class MedicalReleasePrintableForm
         'RichTextBox1
         '
         Me.RichTextBox1.Location = New System.Drawing.Point(190, 70)
-        Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(324, 51)
         Me.RichTextBox1.TabIndex = 10
@@ -129,18 +129,18 @@ Partial Class MedicalReleasePrintableForm
         'submit_Button
         '
         Me.submit_Button.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.submit_Button.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.submit_Button.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.submit_Button.Location = New System.Drawing.Point(382, 386)
         Me.submit_Button.Name = "submit_Button"
         Me.submit_Button.Size = New System.Drawing.Size(132, 32)
         Me.submit_Button.TabIndex = 11
-        Me.submit_Button.Text = "Submit"
+        Me.submit_Button.Text = "Print"
         Me.submit_Button.UseVisualStyleBackColor = False
         '
         'cancel_Button
         '
         Me.cancel_Button.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.cancel_Button.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cancel_Button.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cancel_Button.Location = New System.Drawing.Point(14, 386)
         Me.cancel_Button.Name = "cancel_Button"
         Me.cancel_Button.Size = New System.Drawing.Size(132, 31)
@@ -165,8 +165,7 @@ Partial Class MedicalReleasePrintableForm
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ptNameLabel)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MedicalReleasePrintableForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Medical Release Form"
