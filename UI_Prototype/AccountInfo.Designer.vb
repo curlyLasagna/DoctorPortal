@@ -39,6 +39,7 @@ Partial Class AccountInfo
         Me.gender_comboBox = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -48,10 +49,9 @@ Partial Class AccountInfo
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label1.Location = New System.Drawing.Point(18, 149)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(12, 97)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(79, 29)
+        Me.Label1.Size = New System.Drawing.Size(53, 20)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Email"
         '
@@ -63,12 +63,11 @@ Partial Class AccountInfo
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 72.72727!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, -2)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, -1)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(742, 118)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(495, 77)
         Me.TableLayoutPanel1.TabIndex = 2
         '
         'Label2
@@ -76,10 +75,9 @@ Partial Class AccountInfo
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(323, 39)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(215, 24)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(297, 40)
+        Me.Label2.Size = New System.Drawing.Size(200, 29)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Client information"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -87,10 +85,9 @@ Partial Class AccountInfo
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(4, 5)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(194, 108)
+        Me.PictureBox1.Size = New System.Drawing.Size(129, 70)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -99,10 +96,9 @@ Partial Class AccountInfo
         '
         Me.email_textBox.Cursor = System.Windows.Forms.Cursors.WaitCursor
         Me.email_textBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.email_textBox.Location = New System.Drawing.Point(24, 183)
-        Me.email_textBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.email_textBox.Location = New System.Drawing.Point(16, 119)
         Me.email_textBox.Name = "email_textBox"
-        Me.email_textBox.Size = New System.Drawing.Size(253, 30)
+        Me.email_textBox.Size = New System.Drawing.Size(170, 22)
         Me.email_textBox.TabIndex = 3
         Me.email_textBox.Text = "BobMcBobson@email.com"
         Me.email_textBox.UseWaitCursor = True
@@ -112,10 +108,9 @@ Partial Class AccountInfo
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label3.Location = New System.Drawing.Point(18, 226)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(12, 147)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(136, 29)
+        Me.Label3.Size = New System.Drawing.Size(94, 20)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "First name"
         '
@@ -124,10 +119,9 @@ Partial Class AccountInfo
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label4.Location = New System.Drawing.Point(18, 311)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(12, 202)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(132, 29)
+        Me.Label4.Size = New System.Drawing.Size(93, 20)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Last name"
         '
@@ -136,10 +130,9 @@ Partial Class AccountInfo
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label5.Location = New System.Drawing.Point(393, 311)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(262, 202)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(100, 29)
+        Me.Label5.Size = New System.Drawing.Size(69, 20)
         Me.Label5.TabIndex = 6
         Me.Label5.Text = "Gender"
         '
@@ -148,30 +141,27 @@ Partial Class AccountInfo
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label6.Location = New System.Drawing.Point(393, 149)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(262, 97)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(155, 29)
+        Me.Label6.Size = New System.Drawing.Size(110, 20)
         Me.Label6.TabIndex = 7
         Me.Label6.Text = "Date of birth"
         '
         'fName_textBox
         '
         Me.fName_textBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fName_textBox.Location = New System.Drawing.Point(24, 260)
-        Me.fName_textBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.fName_textBox.Location = New System.Drawing.Point(16, 169)
         Me.fName_textBox.Name = "fName_textBox"
-        Me.fName_textBox.Size = New System.Drawing.Size(253, 30)
+        Me.fName_textBox.Size = New System.Drawing.Size(170, 22)
         Me.fName_textBox.TabIndex = 8
         Me.fName_textBox.Text = "Bob"
         '
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(24, 345)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.TextBox4.Location = New System.Drawing.Point(16, 224)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(253, 30)
+        Me.TextBox4.Size = New System.Drawing.Size(170, 22)
         Me.TextBox4.TabIndex = 10
         Me.TextBox4.Text = "McBobson"
         '
@@ -181,10 +171,9 @@ Partial Class AccountInfo
         Me.DateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(399, 183)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(266, 119)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(160, 30)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(108, 22)
         Me.DateTimePicker1.TabIndex = 12
         Me.DateTimePicker1.Value = New Date(1995, 4, 16, 22, 2, 0, 0)
         '
@@ -192,10 +181,9 @@ Partial Class AccountInfo
         '
         Me.previous_Button.BackColor = System.Drawing.Color.WhiteSmoke
         Me.previous_Button.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.previous_Button.Location = New System.Drawing.Point(596, 395)
-        Me.previous_Button.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.previous_Button.Location = New System.Drawing.Point(397, 257)
         Me.previous_Button.Name = "previous_Button"
-        Me.previous_Button.Size = New System.Drawing.Size(126, 46)
+        Me.previous_Button.Size = New System.Drawing.Size(84, 30)
         Me.previous_Button.TabIndex = 13
         Me.previous_Button.Text = "Previous"
         Me.previous_Button.UseVisualStyleBackColor = False
@@ -206,10 +194,9 @@ Partial Class AccountInfo
         Me.gender_comboBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gender_comboBox.FormattingEnabled = True
         Me.gender_comboBox.Items.AddRange(New Object() {"M", "F", "Other"})
-        Me.gender_comboBox.Location = New System.Drawing.Point(399, 345)
-        Me.gender_comboBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.gender_comboBox.Location = New System.Drawing.Point(266, 224)
         Me.gender_comboBox.Name = "gender_comboBox"
-        Me.gender_comboBox.Size = New System.Drawing.Size(58, 28)
+        Me.gender_comboBox.Size = New System.Drawing.Size(40, 21)
         Me.gender_comboBox.TabIndex = 14
         '
         'Label7
@@ -217,29 +204,37 @@ Partial Class AccountInfo
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label7.Location = New System.Drawing.Point(393, 226)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(262, 147)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(183, 29)
+        Me.Label7.Size = New System.Drawing.Size(125, 20)
         Me.Label7.TabIndex = 15
         Me.Label7.Text = "Phone number"
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(399, 260)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.TextBox1.Location = New System.Drawing.Point(266, 169)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(181, 30)
+        Me.TextBox1.Size = New System.Drawing.Size(122, 22)
         Me.TextBox1.TabIndex = 16
         Me.TextBox1.Text = "483-8391-283"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(319, 257)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(72, 30)
+        Me.Button1.TabIndex = 17
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'AccountInfo
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.ClientSize = New System.Drawing.Size(740, 460)
+        Me.ClientSize = New System.Drawing.Size(493, 299)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.gender_comboBox)
@@ -254,7 +249,6 @@ Partial Class AccountInfo
         Me.Controls.Add(Me.email_textBox)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "AccountInfo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Account Info"
@@ -282,4 +276,5 @@ Partial Class AccountInfo
     Friend WithEvents gender_comboBox As ComboBox
     Friend WithEvents Label7 As Label
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button1 As Button
 End Class

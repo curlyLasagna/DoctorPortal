@@ -4,7 +4,7 @@
         email_textBox.AutoSize = True
         Dim saveChangesButton As New Button
         With saveChangesButton
-            .Location = New Point(304, 257)
+            .Location = New Point(319, 257)
             .Width = 84
             .Height = 30
             .Text = "Save"

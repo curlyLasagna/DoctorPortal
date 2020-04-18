@@ -14,6 +14,7 @@ Public Class login_form
 
     Private Sub recover(sender As Object, e As EventArgs) Handles Label1.Click
         recoveryForm.Show()
+        Me.Hide()
     End Sub
 
     Private Sub sign_in(sender As Object, e As EventArgs) Handles signIn_button.Click
