@@ -51,10 +51,9 @@ Partial Class MainMenu
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.Button1.FlatAppearance.BorderSize = 3
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(2, 2)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.Location = New System.Drawing.Point(3, 3)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(117, 31)
+        Me.Button1.Size = New System.Drawing.Size(176, 48)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Appointments"
         Me.Button1.UseVisualStyleBackColor = False
@@ -65,10 +64,9 @@ Partial Class MainMenu
         Me.AboutMe_Button.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.AboutMe_Button.FlatAppearance.BorderSize = 3
         Me.AboutMe_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.AboutMe_Button.Location = New System.Drawing.Point(3, 97)
-        Me.AboutMe_Button.Margin = New System.Windows.Forms.Padding(2)
+        Me.AboutMe_Button.Location = New System.Drawing.Point(4, 149)
         Me.AboutMe_Button.Name = "AboutMe_Button"
-        Me.AboutMe_Button.Size = New System.Drawing.Size(114, 42)
+        Me.AboutMe_Button.Size = New System.Drawing.Size(171, 65)
         Me.AboutMe_Button.TabIndex = 3
         Me.AboutMe_Button.Text = "About me"
         Me.AboutMe_Button.UseVisualStyleBackColor = False
@@ -79,10 +77,9 @@ Partial Class MainMenu
         Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.Button4.FlatAppearance.BorderSize = 3
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(2, 37)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button4.Location = New System.Drawing.Point(3, 57)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(117, 31)
+        Me.Button4.Size = New System.Drawing.Size(176, 48)
         Me.Button4.TabIndex = 4
         Me.Button4.Text = "Medical History "
         Me.Button4.UseVisualStyleBackColor = False
@@ -94,10 +91,9 @@ Partial Class MainMenu
         Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.Button5.FlatAppearance.BorderSize = 3
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(2, 235)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button5.Location = New System.Drawing.Point(3, 362)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(114, 42)
+        Me.Button5.Size = New System.Drawing.Size(171, 65)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "Medical Record" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Request" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Button5.UseVisualStyleBackColor = False
@@ -108,10 +104,9 @@ Partial Class MainMenu
         Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.Button6.FlatAppearance.BorderSize = 3
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(3, 189)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button6.Location = New System.Drawing.Point(4, 291)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(114, 42)
+        Me.Button6.Size = New System.Drawing.Size(171, 65)
         Me.Button6.TabIndex = 6
         Me.Button6.Text = "Medication Refilling "
         Me.Button6.UseVisualStyleBackColor = False
@@ -122,10 +117,9 @@ Partial Class MainMenu
         Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.Button7.FlatAppearance.BorderSize = 3
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Location = New System.Drawing.Point(3, 143)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button7.Location = New System.Drawing.Point(4, 220)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(114, 42)
+        Me.Button7.Size = New System.Drawing.Size(171, 65)
         Me.Button7.TabIndex = 7
         Me.Button7.Text = "Home Monitoring"
         Me.Button7.UseVisualStyleBackColor = False
@@ -136,10 +130,9 @@ Partial Class MainMenu
         Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.Button8.FlatAppearance.BorderSize = 3
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(1, 179)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button8.Location = New System.Drawing.Point(2, 275)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(118, 31)
+        Me.Button8.Size = New System.Drawing.Size(177, 48)
         Me.Button8.TabIndex = 8
         Me.Button8.Text = "Bill Info"
         Me.Button8.UseVisualStyleBackColor = False
@@ -150,10 +143,9 @@ Partial Class MainMenu
         Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.Button9.FlatAppearance.BorderSize = 3
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(2, 107)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button9.Location = New System.Drawing.Point(3, 165)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(117, 31)
+        Me.Button9.Size = New System.Drawing.Size(176, 48)
         Me.Button9.TabIndex = 9
         Me.Button9.Text = "Insurance Info"
         Me.Button9.UseVisualStyleBackColor = False
@@ -164,10 +156,9 @@ Partial Class MainMenu
         Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.Button10.FlatAppearance.BorderSize = 3
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Location = New System.Drawing.Point(2, 72)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button10.Location = New System.Drawing.Point(3, 111)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(117, 31)
+        Me.Button10.Size = New System.Drawing.Size(176, 48)
         Me.Button10.TabIndex = 10
         Me.Button10.Text = "Pharmacy Info"
         Me.Button10.UseVisualStyleBackColor = False
@@ -182,9 +173,10 @@ Partial Class MainMenu
         Me.AboutMeSubMenu.Controls.Add(Me.Button8)
         Me.AboutMeSubMenu.Controls.Add(Me.Button4)
         Me.AboutMeSubMenu.Controls.Add(Me.Button1)
-        Me.AboutMeSubMenu.Location = New System.Drawing.Point(145, 97)
+        Me.AboutMeSubMenu.Location = New System.Drawing.Point(218, 149)
+        Me.AboutMeSubMenu.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.AboutMeSubMenu.Name = "AboutMeSubMenu"
-        Me.AboutMeSubMenu.Size = New System.Drawing.Size(130, 0)
+        Me.AboutMeSubMenu.Size = New System.Drawing.Size(195, 0)
         Me.AboutMeSubMenu.TabIndex = 11
         '
         'clientInfo_Button
@@ -194,11 +186,12 @@ Partial Class MainMenu
         Me.clientInfo_Button.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.clientInfo_Button.FlatAppearance.BorderSize = 3
         Me.clientInfo_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.clientInfo_Button.Location = New System.Drawing.Point(1, 143)
+        Me.clientInfo_Button.Location = New System.Drawing.Point(2, 220)
+        Me.clientInfo_Button.Margin = New System.Windows.Forms.Padding(10, 10, 10, 10)
         Me.clientInfo_Button.Name = "clientInfo_Button"
-        Me.clientInfo_Button.Size = New System.Drawing.Size(118, 31)
+        Me.clientInfo_Button.Size = New System.Drawing.Size(176, 46)
         Me.clientInfo_Button.TabIndex = 12
-        Me.clientInfo_Button.Text = "Client information"
+        Me.clientInfo_Button.Text = "Client Info"
         Me.clientInfo_Button.UseVisualStyleBackColor = False
         '
         'exit_button
@@ -208,9 +201,10 @@ Partial Class MainMenu
         Me.exit_button.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.exit_button.FlatAppearance.BorderSize = 3
         Me.exit_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.exit_button.Location = New System.Drawing.Point(3, 282)
+        Me.exit_button.Location = New System.Drawing.Point(4, 434)
+        Me.exit_button.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.exit_button.Name = "exit_button"
-        Me.exit_button.Size = New System.Drawing.Size(114, 42)
+        Me.exit_button.Size = New System.Drawing.Size(171, 65)
         Me.exit_button.TabIndex = 12
         Me.exit_button.Text = "Exit"
         Me.exit_button.UseVisualStyleBackColor = False
@@ -220,9 +214,10 @@ Partial Class MainMenu
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(80, 0)
+        Me.Label1.Location = New System.Drawing.Point(120, 0)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(208, 74)
+        Me.Label1.Size = New System.Drawing.Size(312, 114)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "The Vindicator's Patient Portal"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -236,9 +231,10 @@ Partial Class MainMenu
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.InitialImage = Nothing
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 5)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(71, 68)
+        Me.PictureBox1.Size = New System.Drawing.Size(106, 104)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -251,20 +247,21 @@ Partial Class MainMenu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.20574!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, -2)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, -3)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(291, 74)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(436, 114)
         Me.TableLayoutPanel1.TabIndex = 13
         '
         'MainMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.CancelButton = Me.exit_button
-        Me.ClientSize = New System.Drawing.Size(287, 346)
+        Me.ClientSize = New System.Drawing.Size(430, 532)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.exit_button)
         Me.Controls.Add(Me.AboutMeSubMenu)
@@ -272,7 +269,6 @@ Partial Class MainMenu
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.AboutMe_Button)
-        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MainMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Patient Portal"
