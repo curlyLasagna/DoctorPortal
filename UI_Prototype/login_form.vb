@@ -17,7 +17,7 @@ Public Class login_form
     End Sub
 
     Private Sub sign_in(sender As Object, e As EventArgs) Handles signIn_button.Click
-        Me.Hide()
         MainMenu.Show()
+        Me.Close()
     End Sub
 End Class
