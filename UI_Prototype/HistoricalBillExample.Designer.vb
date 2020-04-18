@@ -375,7 +375,7 @@ Partial Class HistoricalBillExample
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.ClientSize = New System.Drawing.Size(503, 673)
+        Me.ClientSize = New System.Drawing.Size(503, 617)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.insurancePayment)
