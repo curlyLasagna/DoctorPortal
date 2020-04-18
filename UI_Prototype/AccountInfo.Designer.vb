@@ -39,7 +39,6 @@ Partial Class AccountInfo
         Me.gender_comboBox = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -198,6 +197,7 @@ Partial Class AccountInfo
         Me.gender_comboBox.Name = "gender_comboBox"
         Me.gender_comboBox.Size = New System.Drawing.Size(40, 21)
         Me.gender_comboBox.TabIndex = 14
+        Me.gender_comboBox.SelectedIndex = 0
         '
         'Label7
         '
@@ -219,22 +219,12 @@ Partial Class AccountInfo
         Me.TextBox1.TabIndex = 16
         Me.TextBox1.Text = "483-8391-283"
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(319, 257)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(72, 30)
-        Me.Button1.TabIndex = 17
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'AccountInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(493, 299)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.gender_comboBox)
@@ -276,5 +266,4 @@ Partial Class AccountInfo
     Friend WithEvents gender_comboBox As ComboBox
     Friend WithEvents Label7 As Label
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button1 As Button
 End Class
