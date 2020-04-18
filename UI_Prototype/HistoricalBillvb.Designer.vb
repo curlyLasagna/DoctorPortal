@@ -41,19 +41,22 @@ Partial Class historicalBill
         Me.historicalBillViewer.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.historicalBillViewer.AutoSize = True
         Me.historicalBillViewer.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.historicalBillViewer.Location = New System.Drawing.Point(168, 12)
+        Me.historicalBillViewer.Location = New System.Drawing.Point(255, 20)
+        Me.historicalBillViewer.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.historicalBillViewer.Name = "historicalBillViewer"
-        Me.historicalBillViewer.Size = New System.Drawing.Size(142, 50)
+        Me.historicalBillViewer.Size = New System.Drawing.Size(209, 74)
         Me.historicalBillViewer.TabIndex = 0
         Me.historicalBillViewer.Text = "Historical Bill " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "     Viewer"
         '
         'reciptListBox
         '
         Me.reciptListBox.FormattingEnabled = True
+        Me.reciptListBox.ItemHeight = 20
         Me.reciptListBox.Items.AddRange(New Object() {"04/07/2020      Bechie                RC56813A3                   $15,897.36"})
-        Me.reciptListBox.Location = New System.Drawing.Point(12, 111)
+        Me.reciptListBox.Location = New System.Drawing.Point(18, 171)
+        Me.reciptListBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.reciptListBox.Name = "reciptListBox"
-        Me.reciptListBox.Size = New System.Drawing.Size(344, 264)
+        Me.reciptListBox.Size = New System.Drawing.Size(514, 404)
         Me.reciptListBox.TabIndex = 1
         '
         'dateLabel
@@ -61,9 +64,10 @@ Partial Class historicalBill
         Me.dateLabel.AutoSize = True
         Me.dateLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dateLabel.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.dateLabel.Location = New System.Drawing.Point(12, 95)
+        Me.dateLabel.Location = New System.Drawing.Point(18, 146)
+        Me.dateLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.dateLabel.Name = "dateLabel"
-        Me.dateLabel.Size = New System.Drawing.Size(41, 16)
+        Me.dateLabel.Size = New System.Drawing.Size(57, 25)
         Me.dateLabel.TabIndex = 2
         Me.dateLabel.Text = "Date"
         '
@@ -72,9 +76,10 @@ Partial Class historicalBill
         Me.doctorName.AutoSize = True
         Me.doctorName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.doctorName.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.doctorName.Location = New System.Drawing.Point(91, 95)
+        Me.doctorName.Location = New System.Drawing.Point(136, 146)
+        Me.doctorName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.doctorName.Name = "doctorName"
-        Me.doctorName.Size = New System.Drawing.Size(54, 16)
+        Me.doctorName.Size = New System.Drawing.Size(75, 25)
         Me.doctorName.TabIndex = 3
         Me.doctorName.Text = "Doctor"
         '
@@ -83,9 +88,10 @@ Partial Class historicalBill
         Me.reciptNumber.AutoSize = True
         Me.reciptNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.reciptNumber.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.reciptNumber.Location = New System.Drawing.Point(172, 95)
+        Me.reciptNumber.Location = New System.Drawing.Point(258, 146)
+        Me.reciptNumber.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.reciptNumber.Name = "reciptNumber"
-        Me.reciptNumber.Size = New System.Drawing.Size(111, 16)
+        Me.reciptNumber.Size = New System.Drawing.Size(153, 25)
         Me.reciptNumber.TabIndex = 4
         Me.reciptNumber.Text = "Recipt Number"
         '
@@ -94,18 +100,18 @@ Partial Class historicalBill
         Me.amountLable.AutoSize = True
         Me.amountLable.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.amountLable.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.amountLable.Location = New System.Drawing.Point(287, 95)
+        Me.amountLable.Location = New System.Drawing.Point(430, 146)
+        Me.amountLable.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.amountLable.Name = "amountLable"
-        Me.amountLable.Size = New System.Drawing.Size(59, 16)
+        Me.amountLable.Size = New System.Drawing.Size(86, 25)
         Me.amountLable.TabIndex = 5
         Me.amountLable.Text = "Amount"
         '
         'previousBtn
         '
-        Me.previousBtn.Location = New System.Drawing.Point(11, 394)
-        Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.previousBtn.Location = New System.Drawing.Point(16, 606)
         Me.previousBtn.Name = "previousBtn"
-        Me.previousBtn.Size = New System.Drawing.Size(61, 21)
+        Me.previousBtn.Size = New System.Drawing.Size(92, 32)
         Me.previousBtn.TabIndex = 6
         Me.previousBtn.Text = "Previous"
         Me.previousBtn.UseVisualStyleBackColor = True
@@ -118,29 +124,31 @@ Partial Class historicalBill
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70.42606!))
         Me.TableLayoutPanel1.Controls.Add(Me.historicalBillViewer, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(-1, 0)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(-2, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(370, 74)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(555, 114)
         Me.TableLayoutPanel1.TabIndex = 7
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 5)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(103, 68)
+        Me.PictureBox1.Size = New System.Drawing.Size(154, 104)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'historicalBill
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.ClientSize = New System.Drawing.Size(365, 426)
+        Me.ClientSize = New System.Drawing.Size(548, 655)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.previousBtn)
         Me.Controls.Add(Me.amountLable)
@@ -148,7 +156,9 @@ Partial Class historicalBill
         Me.Controls.Add(Me.doctorName)
         Me.Controls.Add(Me.dateLabel)
         Me.Controls.Add(Me.reciptListBox)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "historicalBill"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Historical Bill"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()

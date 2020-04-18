@@ -22,7 +22,7 @@ Partial Class HistoricalBillExample
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"304-X", "Detoxicity of Self", "2", "7,948.68", "15,897.36"}, -1)
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"304-X", "Detoxicity of Self", "2", "7,948.68", "15,897.36"}, -1)
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(HistoricalBillExample))
         Me.insurancePayment = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -65,7 +65,7 @@ Partial Class HistoricalBillExample
         Me.insurancePayment.Location = New System.Drawing.Point(5, 522)
         Me.insurancePayment.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.insurancePayment.Name = "insurancePayment"
-        Me.insurancePayment.Size = New System.Drawing.Size(183, 15)
+        Me.insurancePayment.Size = New System.Drawing.Size(268, 22)
         Me.insurancePayment.TabIndex = 53
         Me.insurancePayment.Text = "Insurance Payment: $ 10,000.00"
         '
@@ -77,7 +77,7 @@ Partial Class HistoricalBillExample
         Me.Label1.Location = New System.Drawing.Point(274, 499)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(211, 15)
+        Me.Label1.Size = New System.Drawing.Size(317, 22)
         Me.Label1.TabIndex = 52
         Me.Label1.Text = "Card/Check No.: xxxx-xxxx-xxxx-035C"
         '
@@ -89,7 +89,7 @@ Partial Class HistoricalBillExample
         Me.paymentMethod.Location = New System.Drawing.Point(274, 475)
         Me.paymentMethod.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.paymentMethod.Name = "paymentMethod"
-        Me.paymentMethod.Size = New System.Drawing.Size(192, 15)
+        Me.paymentMethod.Size = New System.Drawing.Size(280, 22)
         Me.paymentMethod.TabIndex = 51
         Me.paymentMethod.Text = "Payment Merhod: Multiverse Card"
         '
@@ -101,7 +101,7 @@ Partial Class HistoricalBillExample
         Me.amountPaid.Location = New System.Drawing.Point(5, 573)
         Me.amountPaid.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.amountPaid.Name = "amountPaid"
-        Me.amountPaid.Size = New System.Drawing.Size(145, 15)
+        Me.amountPaid.Size = New System.Drawing.Size(212, 22)
         Me.amountPaid.TabIndex = 50
         Me.amountPaid.Text = "Amount Paid: $15,897.36"
         '
@@ -113,7 +113,7 @@ Partial Class HistoricalBillExample
         Me.totalAmount.Location = New System.Drawing.Point(5, 548)
         Me.totalAmount.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.totalAmount.Name = "totalAmount"
-        Me.totalAmount.Size = New System.Drawing.Size(102, 15)
+        Me.totalAmount.Size = New System.Drawing.Size(151, 22)
         Me.totalAmount.TabIndex = 49
         Me.totalAmount.Text = "Total: $15,897.36"
         '
@@ -125,7 +125,7 @@ Partial Class HistoricalBillExample
         Me.subtotal.Location = New System.Drawing.Point(5, 475)
         Me.subtotal.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.subtotal.Name = "subtotal"
-        Me.subtotal.Size = New System.Drawing.Size(120, 15)
+        Me.subtotal.Size = New System.Drawing.Size(176, 22)
         Me.subtotal.TabIndex = 48
         Me.subtotal.Text = "Subtotal: $15,897.36"
         '
@@ -137,7 +137,7 @@ Partial Class HistoricalBillExample
         Me.taxRate.Location = New System.Drawing.Point(5, 499)
         Me.taxRate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.taxRate.Name = "taxRate"
-        Me.taxRate.Size = New System.Drawing.Size(91, 15)
+        Me.taxRate.Size = New System.Drawing.Size(137, 22)
         Me.taxRate.TabIndex = 47
         Me.taxRate.Text = "Tax Rate (%): 0"
         '
@@ -145,7 +145,7 @@ Partial Class HistoricalBillExample
         '
         Me.receiptItemListBox.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.medicalCode, Me.descriptonOfService, Me.quanityOfService, Me.rateOfService, Me.moneyTotal})
         Me.receiptItemListBox.HideSelection = False
-        Me.receiptItemListBox.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem2})
+        Me.receiptItemListBox.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1})
         Me.receiptItemListBox.Location = New System.Drawing.Point(8, 317)
         Me.receiptItemListBox.Margin = New System.Windows.Forms.Padding(2)
         Me.receiptItemListBox.Name = "receiptItemListBox"
@@ -187,7 +187,7 @@ Partial Class HistoricalBillExample
         Me.patientCityStateZip.Location = New System.Drawing.Point(5, 288)
         Me.patientCityStateZip.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientCityStateZip.Name = "patientCityStateZip"
-        Me.patientCityStateZip.Size = New System.Drawing.Size(211, 15)
+        Me.patientCityStateZip.Size = New System.Drawing.Size(320, 22)
         Me.patientCityStateZip.TabIndex = 45
         Me.patientCityStateZip.Text = "City/State/ZIP: Something, WA C500-A"
         '
@@ -199,7 +199,7 @@ Partial Class HistoricalBillExample
         Me.patientStreetAddress.Location = New System.Drawing.Point(5, 266)
         Me.patientStreetAddress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientStreetAddress.Name = "patientStreetAddress"
-        Me.patientStreetAddress.Size = New System.Drawing.Size(206, 15)
+        Me.patientStreetAddress.Size = New System.Drawing.Size(307, 22)
         Me.patientStreetAddress.TabIndex = 44
         Me.patientStreetAddress.Text = "Street Address: C-137 Multiverse Rd."
         '
@@ -211,7 +211,7 @@ Partial Class HistoricalBillExample
         Me.patientName.Location = New System.Drawing.Point(5, 245)
         Me.patientName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientName.Name = "patientName"
-        Me.patientName.Size = New System.Drawing.Size(125, 15)
+        Me.patientName.Size = New System.Drawing.Size(181, 22)
         Me.patientName.TabIndex = 43
         Me.patientName.Text = "Name: Rick Sanchez "
         '
@@ -223,7 +223,7 @@ Partial Class HistoricalBillExample
         Me.patientInformation.Location = New System.Drawing.Point(5, 222)
         Me.patientInformation.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientInformation.Name = "patientInformation"
-        Me.patientInformation.Size = New System.Drawing.Size(113, 15)
+        Me.patientInformation.Size = New System.Drawing.Size(164, 22)
         Me.patientInformation.TabIndex = 42
         Me.patientInformation.Text = "Patient Information:"
         '
@@ -235,7 +235,7 @@ Partial Class HistoricalBillExample
         Me.officeCityStateZip.Location = New System.Drawing.Point(5, 183)
         Me.officeCityStateZip.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.officeCityStateZip.Name = "officeCityStateZip"
-        Me.officeCityStateZip.Size = New System.Drawing.Size(182, 15)
+        Me.officeCityStateZip.Size = New System.Drawing.Size(278, 22)
         Me.officeCityStateZip.TabIndex = 41
         Me.officeCityStateZip.Text = "City/State/ZIP: Tucson, AZ 85743"
         '
@@ -247,7 +247,7 @@ Partial Class HistoricalBillExample
         Me.officeAddress.Location = New System.Drawing.Point(5, 161)
         Me.officeAddress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.officeAddress.Name = "officeAddress"
-        Me.officeAddress.Size = New System.Drawing.Size(204, 15)
+        Me.officeAddress.Size = New System.Drawing.Size(301, 22)
         Me.officeAddress.TabIndex = 40
         Me.officeAddress.Text = "Office Address: 1235 Something Rd."
         '
@@ -259,7 +259,7 @@ Partial Class HistoricalBillExample
         Me.licenseNumber.Location = New System.Drawing.Point(5, 138)
         Me.licenseNumber.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.licenseNumber.Name = "licenseNumber"
-        Me.licenseNumber.Size = New System.Drawing.Size(146, 15)
+        Me.licenseNumber.Size = New System.Drawing.Size(210, 22)
         Me.licenseNumber.TabIndex = 39
         Me.licenseNumber.Text = "License Number: 123456"
         '
@@ -271,7 +271,7 @@ Partial Class HistoricalBillExample
         Me.doctorsName.Location = New System.Drawing.Point(5, 116)
         Me.doctorsName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.doctorsName.Name = "doctorsName"
-        Me.doctorsName.Size = New System.Drawing.Size(147, 15)
+        Me.doctorsName.Size = New System.Drawing.Size(214, 22)
         Me.doctorsName.TabIndex = 38
         Me.doctorsName.Text = "Practitoner Name: Bechie"
         '
@@ -283,7 +283,7 @@ Partial Class HistoricalBillExample
         Me.dateLable.Location = New System.Drawing.Point(289, 116)
         Me.dateLable.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.dateLable.Name = "dateLable"
-        Me.dateLable.Size = New System.Drawing.Size(101, 15)
+        Me.dateLable.Size = New System.Drawing.Size(148, 22)
         Me.dateLable.TabIndex = 37
         Me.dateLable.Text = "Date: 04/07/2020"
         '
@@ -293,7 +293,7 @@ Partial Class HistoricalBillExample
         Me.recitptNumber.Location = New System.Drawing.Point(493, -16)
         Me.recitptNumber.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.recitptNumber.Name = "recitptNumber"
-        Me.recitptNumber.Size = New System.Drawing.Size(100, 15)
+        Me.recitptNumber.Size = New System.Drawing.Size(144, 22)
         Me.recitptNumber.TabIndex = 36
         Me.recitptNumber.Text = "Receipt Number:"
         '
@@ -305,7 +305,7 @@ Partial Class HistoricalBillExample
         Me.nameOfInstitution.Location = New System.Drawing.Point(5, 95)
         Me.nameOfInstitution.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.nameOfInstitution.Name = "nameOfInstitution"
-        Me.nameOfInstitution.Size = New System.Drawing.Size(218, 15)
+        Me.nameOfInstitution.Size = New System.Drawing.Size(314, 22)
         Me.nameOfInstitution.TabIndex = 35
         Me.nameOfInstitution.Text = "Name of Medical Institution: Pima 299 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -316,7 +316,7 @@ Partial Class HistoricalBillExample
         Me.medicalBillReceiptHeader.Location = New System.Drawing.Point(360, -47)
         Me.medicalBillReceiptHeader.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.medicalBillReceiptHeader.Name = "medicalBillReceiptHeader"
-        Me.medicalBillReceiptHeader.Size = New System.Drawing.Size(174, 24)
+        Me.medicalBillReceiptHeader.Size = New System.Drawing.Size(265, 32)
         Me.medicalBillReceiptHeader.TabIndex = 34
         Me.medicalBillReceiptHeader.Text = "Medical Bill Receipt"
         '
@@ -326,10 +326,10 @@ Partial Class HistoricalBillExample
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label2.Location = New System.Drawing.Point(230, 25)
+        Me.Label2.Location = New System.Drawing.Point(185, 19)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(201, 25)
+        Me.Label2.Size = New System.Drawing.Size(292, 37)
         Me.Label2.TabIndex = 54
         Me.Label2.Text = "Medical Bill Receipt"
         '
@@ -341,7 +341,7 @@ Partial Class HistoricalBillExample
         Me.Label3.Location = New System.Drawing.Point(289, 95)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(178, 15)
+        Me.Label3.Size = New System.Drawing.Size(262, 22)
         Me.Label3.TabIndex = 55
         Me.Label3.Text = "Receipt Number:  RC56813A3  "
         '
@@ -372,7 +372,7 @@ Partial Class HistoricalBillExample
         '
         'HistoricalBillExample
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(503, 673)
@@ -400,6 +400,7 @@ Partial Class HistoricalBillExample
         Me.Controls.Add(Me.medicalBillReceiptHeader)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "HistoricalBillExample"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Recipt"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()

@@ -31,9 +31,10 @@ Partial Class appt_schedule_submit
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.Label1.Location = New System.Drawing.Point(50, 9)
+        Me.Label1.Location = New System.Drawing.Point(75, 14)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(203, 24)
+        Me.Label1.Size = New System.Drawing.Size(303, 32)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Thank you for booking!"
         '
@@ -41,30 +42,34 @@ Partial Class appt_schedule_submit
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.Label2.Location = New System.Drawing.Point(50, 42)
+        Me.Label2.Location = New System.Drawing.Point(75, 65)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(182, 24)
+        Me.Label2.Size = New System.Drawing.Size(276, 32)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Your appointment is:"
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(54, 83)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(81, 128)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(298, 26)
         Me.DateTimePicker1.TabIndex = 2
         Me.DateTimePicker1.Value = New Date(2020, 4, 21, 0, 0, 0, 0)
         '
         'appt_schedule_submit
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.ClientSize = New System.Drawing.Size(302, 154)
+        Me.ClientSize = New System.Drawing.Size(453, 237)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "appt_schedule_submit"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Submitted"
         Me.ResumeLayout(False)
         Me.PerformLayout()

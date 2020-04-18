@@ -37,12 +37,11 @@ Partial Class Bill_Info
         'questionOpener
         '
         Me.questionOpener.AutoSize = True
-        Me.questionOpener.Font = New System.Drawing.Font("DejaVu Serif Condensed", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.questionOpener.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.questionOpener.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.questionOpener.Location = New System.Drawing.Point(64, 62)
-        Me.questionOpener.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.questionOpener.Location = New System.Drawing.Point(96, 95)
         Me.questionOpener.Name = "questionOpener"
-        Me.questionOpener.Size = New System.Drawing.Size(233, 19)
+        Me.questionOpener.Size = New System.Drawing.Size(325, 29)
         Me.questionOpener.TabIndex = 0
         Me.questionOpener.Text = "What would  you like to view?"
         '
@@ -50,22 +49,20 @@ Partial Class Bill_Info
         '
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(131, 17)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(202, 27)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(166, 24)
+        Me.Label1.Size = New System.Drawing.Size(238, 37)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Bill Information "
         '
         'currentBillBtn
         '
         Me.currentBillBtn.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.currentBillBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.currentBillBtn.Location = New System.Drawing.Point(68, 95)
-        Me.currentBillBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.currentBillBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.currentBillBtn.Location = New System.Drawing.Point(102, 146)
         Me.currentBillBtn.Name = "currentBillBtn"
-        Me.currentBillBtn.Size = New System.Drawing.Size(89, 23)
+        Me.currentBillBtn.Size = New System.Drawing.Size(134, 35)
         Me.currentBillBtn.TabIndex = 2
         Me.currentBillBtn.Text = "Current Bill "
         Me.currentBillBtn.UseVisualStyleBackColor = False
@@ -73,11 +70,10 @@ Partial Class Bill_Info
         'historicalBillBtn
         '
         Me.historicalBillBtn.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.historicalBillBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.historicalBillBtn.Location = New System.Drawing.Point(187, 95)
-        Me.historicalBillBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.historicalBillBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.historicalBillBtn.Location = New System.Drawing.Point(280, 146)
         Me.historicalBillBtn.Name = "historicalBillBtn"
-        Me.historicalBillBtn.Size = New System.Drawing.Size(89, 23)
+        Me.historicalBillBtn.Size = New System.Drawing.Size(134, 35)
         Me.historicalBillBtn.TabIndex = 3
         Me.historicalBillBtn.Text = "Historical Bill "
         Me.historicalBillBtn.UseVisualStyleBackColor = False
@@ -85,11 +81,10 @@ Partial Class Bill_Info
         'previousBtn
         '
         Me.previousBtn.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.previousBtn.Font = New System.Drawing.Font("DejaVu Serif Condensed", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.previousBtn.Location = New System.Drawing.Point(135, 128)
-        Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.previousBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.previousBtn.Location = New System.Drawing.Point(202, 197)
         Me.previousBtn.Name = "previousBtn"
-        Me.previousBtn.Size = New System.Drawing.Size(74, 23)
+        Me.previousBtn.Size = New System.Drawing.Size(111, 35)
         Me.previousBtn.TabIndex = 4
         Me.previousBtn.Text = "Previous"
         Me.previousBtn.UseVisualStyleBackColor = False
@@ -103,36 +98,38 @@ Partial Class Bill_Info
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 0, 0)
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(329, 59)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(494, 91)
         Me.TableLayoutPanel1.TabIndex = 5
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 5)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(93, 53)
+        Me.PictureBox1.Size = New System.Drawing.Size(140, 81)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
         'Bill_Info
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.ClientSize = New System.Drawing.Size(329, 162)
+        Me.ClientSize = New System.Drawing.Size(494, 249)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.previousBtn)
         Me.Controls.Add(Me.historicalBillBtn)
         Me.Controls.Add(Me.currentBillBtn)
         Me.Controls.Add(Me.questionOpener)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Bill_Info"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bill Info"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
