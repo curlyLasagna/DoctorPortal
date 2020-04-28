@@ -732,4 +732,7 @@
         o7TbiBxHiRByHIVCobxbyHEUCoXybiHHUSgUypv1+vX/BwoSO+JrJL6TAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="med_ListView.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

@@ -28,37 +28,38 @@ Partial Class MedRecordRequest
         Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-
         'openReleaseFormButton
         '
+        Me.openReleaseFormButton.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.openReleaseFormButton.BackColor = System.Drawing.Color.WhiteSmoke
         Me.openReleaseFormButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.openReleaseFormButton.Location = New System.Drawing.Point(201, 172)
-
+        Me.openReleaseFormButton.Location = New System.Drawing.Point(297, 173)
         Me.openReleaseFormButton.Margin = New System.Windows.Forms.Padding(2)
         Me.openReleaseFormButton.Name = "openReleaseFormButton"
-        Me.openReleaseFormButton.Size = New System.Drawing.Size(187, 37)
+        Me.openReleaseFormButton.Size = New System.Drawing.Size(136, 52)
         Me.openReleaseFormButton.TabIndex = 1
         Me.openReleaseFormButton.Text = "Open Medical Release Form"
         Me.openReleaseFormButton.UseVisualStyleBackColor = False
         '
         'previousBtn
         '
-        Me.previousBtn.Location = New System.Drawing.Point(11, 222)
+        Me.previousBtn.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.previousBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.previousBtn.Location = New System.Drawing.Point(130, 173)
         Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.previousBtn.Name = "previousBtn"
-        Me.previousBtn.Size = New System.Drawing.Size(61, 21)
+        Me.previousBtn.Size = New System.Drawing.Size(136, 52)
         Me.previousBtn.TabIndex = 5
         Me.previousBtn.Text = "Previous"
-        Me.previousBtn.UseVisualStyleBackColor = True
+        Me.previousBtn.UseVisualStyleBackColor = False
         '
         'Label1
         '
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Label1.Location = New System.Drawing.Point(12, 21)
+        Me.Label1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Black
+        Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(559, 135)
         Me.Label1.TabIndex = 6
@@ -69,13 +70,11 @@ Partial Class MedRecordRequest
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(583, 254)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.previousBtn)
         Me.Controls.Add(Me.openReleaseFormButton)
-
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MedRecordRequest"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

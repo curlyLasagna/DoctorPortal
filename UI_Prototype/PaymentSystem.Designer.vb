@@ -87,7 +87,7 @@ Partial Class PaymentSystem
         Me.addressTwo.AutoSize = True
         Me.addressTwo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addressTwo.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.addressTwo.Location = New System.Drawing.Point(23, 90)
+        Me.addressTwo.Location = New System.Drawing.Point(17, 89)
         Me.addressTwo.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.addressTwo.Name = "addressTwo"
         Me.addressTwo.Size = New System.Drawing.Size(78, 16)
@@ -99,7 +99,7 @@ Partial Class PaymentSystem
         Me.addressOne.AutoSize = True
         Me.addressOne.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.addressOne.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.addressOne.Location = New System.Drawing.Point(23, 66)
+        Me.addressOne.Location = New System.Drawing.Point(16, 65)
         Me.addressOne.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.addressOne.Name = "addressOne"
         Me.addressOne.Size = New System.Drawing.Size(78, 16)
@@ -164,7 +164,7 @@ Partial Class PaymentSystem
         '
         'addressTwoTB
         '
-        Me.addressTwoTB.Location = New System.Drawing.Point(96, 85)
+        Me.addressTwoTB.Location = New System.Drawing.Point(95, 85)
         Me.addressTwoTB.Margin = New System.Windows.Forms.Padding(2)
         Me.addressTwoTB.Name = "addressTwoTB"
         Me.addressTwoTB.Size = New System.Drawing.Size(233, 20)
@@ -175,7 +175,7 @@ Partial Class PaymentSystem
         Me.zipCode.AutoSize = True
         Me.zipCode.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.zipCode.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.zipCode.Location = New System.Drawing.Point(28, 163)
+        Me.zipCode.Location = New System.Drawing.Point(21, 163)
         Me.zipCode.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.zipCode.Name = "zipCode"
         Me.zipCode.Size = New System.Drawing.Size(71, 16)
@@ -187,7 +187,7 @@ Partial Class PaymentSystem
         Me.state.AutoSize = True
         Me.state.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.state.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.state.Location = New System.Drawing.Point(54, 139)
+        Me.state.Location = New System.Drawing.Point(48, 138)
         Me.state.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.state.Name = "state"
         Me.state.Size = New System.Drawing.Size(44, 16)
@@ -197,7 +197,7 @@ Partial Class PaymentSystem
         'stateComboBox
         '
         Me.stateComboBox.FormattingEnabled = True
-        Me.stateComboBox.Location = New System.Drawing.Point(96, 133)
+        Me.stateComboBox.Location = New System.Drawing.Point(95, 133)
         Me.stateComboBox.Margin = New System.Windows.Forms.Padding(2)
         Me.stateComboBox.Name = "stateComboBox"
         Me.stateComboBox.Size = New System.Drawing.Size(45, 21)
@@ -205,7 +205,7 @@ Partial Class PaymentSystem
         '
         'firstHalfZipTB
         '
-        Me.firstHalfZipTB.Location = New System.Drawing.Point(96, 161)
+        Me.firstHalfZipTB.Location = New System.Drawing.Point(95, 161)
         Me.firstHalfZipTB.Margin = New System.Windows.Forms.Padding(2)
         Me.firstHalfZipTB.Name = "firstHalfZipTB"
         Me.firstHalfZipTB.Size = New System.Drawing.Size(46, 20)
@@ -233,7 +233,7 @@ Partial Class PaymentSystem
         Me.cardNumber.AutoSize = True
         Me.cardNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cardNumber.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.cardNumber.Location = New System.Drawing.Point(-1, 192)
+        Me.cardNumber.Location = New System.Drawing.Point(-1, 191)
         Me.cardNumber.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cardNumber.Name = "cardNumber"
         Me.cardNumber.Size = New System.Drawing.Size(99, 16)
@@ -242,7 +242,7 @@ Partial Class PaymentSystem
         '
         'firstCardNumberTB
         '
-        Me.firstCardNumberTB.Location = New System.Drawing.Point(96, 187)
+        Me.firstCardNumberTB.Location = New System.Drawing.Point(95, 187)
         Me.firstCardNumberTB.Margin = New System.Windows.Forms.Padding(2)
         Me.firstCardNumberTB.Name = "firstCardNumberTB"
         Me.firstCardNumberTB.Size = New System.Drawing.Size(46, 20)
@@ -277,7 +277,7 @@ Partial Class PaymentSystem
         Me.cardExpDate.AutoSize = True
         Me.cardExpDate.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cardExpDate.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.cardExpDate.Location = New System.Drawing.Point(25, 221)
+        Me.cardExpDate.Location = New System.Drawing.Point(20, 220)
         Me.cardExpDate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.cardExpDate.Name = "cardExpDate"
         Me.cardExpDate.Size = New System.Drawing.Size(75, 16)
@@ -286,7 +286,7 @@ Partial Class PaymentSystem
         '
         'firstExpDateTB
         '
-        Me.firstExpDateTB.Location = New System.Drawing.Point(96, 216)
+        Me.firstExpDateTB.Location = New System.Drawing.Point(95, 216)
         Me.firstExpDateTB.Margin = New System.Windows.Forms.Padding(2)
         Me.firstExpDateTB.Name = "firstExpDateTB"
         Me.firstExpDateTB.Size = New System.Drawing.Size(27, 20)
@@ -336,7 +336,7 @@ Partial Class PaymentSystem
         Me.city.AutoSize = True
         Me.city.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.city.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.city.Location = New System.Drawing.Point(60, 114)
+        Me.city.Location = New System.Drawing.Point(58, 113)
         Me.city.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.city.Name = "city"
         Me.city.Size = New System.Drawing.Size(34, 16)
@@ -345,7 +345,7 @@ Partial Class PaymentSystem
         '
         'cityTB
         '
-        Me.cityTB.Location = New System.Drawing.Point(96, 109)
+        Me.cityTB.Location = New System.Drawing.Point(95, 109)
         Me.cityTB.Margin = New System.Windows.Forms.Padding(2)
         Me.cityTB.Name = "cityTB"
         Me.cityTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
