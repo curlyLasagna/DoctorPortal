@@ -21,4 +21,8 @@
         Me.Close()
         MainMenu.Show()
     End Sub
+
+    Private Sub AccountInfo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.MdiParent = MainMenu
+    End Sub
 End Class

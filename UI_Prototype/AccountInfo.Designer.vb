@@ -197,7 +197,6 @@ Partial Class AccountInfo
         Me.gender_comboBox.Name = "gender_comboBox"
         Me.gender_comboBox.Size = New System.Drawing.Size(40, 21)
         Me.gender_comboBox.TabIndex = 14
-        Me.gender_comboBox.SelectedIndex = 0
         '
         'Label7
         '
