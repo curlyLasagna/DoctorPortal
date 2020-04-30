@@ -11,7 +11,14 @@
 * Provide vital information to healthcare providers
 
 # Notes
-* This application is super prototype. It doesn't work as it was planned yet. 
+This application is a front end prototype. Nothing happens in the back end yet. It doesn't communicate with the database yet and some parts of the application is subject to a major overhaul.
+
+# Running the application
+Head over to release, you can download the executable.
+Windows will warn you about this application and you can do two things:
+* If you trust us, click 'more info' and a 'run anyway' button will appear
+* If you don't trust us, just close the warning. We won't take it personally.
+
 
 # Screenshots
 ### Splash screen :)
