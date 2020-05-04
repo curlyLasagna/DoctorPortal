@@ -30,5 +30,8 @@ Windows will warn you about this application and you can do two things:
 # TODO
 - [ ] Overhaul main menu layout
 - [ ] Add log in verification
-- [ ] Fix an issue where closing a form that has a parent form hidden doesn't kill the program entirely
-- [ ] Change the ListBox object to a more uniform alternative in MedicationRefilling form
+- [ ] Fix an issue where closing a form that has a parent form hidden doesn't kill the program entirely. This can be done by setting the buttons that spawn the child forms to use me.close() instead of me.hide()
+- [x] Change the ListBox object to a more uniform alternative in MedicationRefilling form
+- [ ] Instead of DateTimePicker in the appt_upcoming form, use an alternative listing object to show upcoming appointments dates, time and reason
+- [ ] Change the MedHx text boxes to read only. Any text box that doesn't require user intervention to be read only.
+- [ ] Add anchors to objects in order add responsiveness when user resizes the current form
