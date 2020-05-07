@@ -24,11 +24,11 @@ Windows will warn you about this application and you can do two things:
 ### Splash screen :)
 ![Image](https://i.ibb.co/sqLRxGn/splash-Screen.jpg)
 
-### Client info
-![Image](https://i.ibb.co/Wcz3Mg7/client-Info.jpg)
+### Main Menu
+![Image](https://i.ibb.co/xMMbtdd/mainMenu.jpg)
 
 # TODO
-- [ ] Overhaul main menu layout (Working on it)
+- [x] Overhaul main menu layout
 - [ ] Change all form's FormBorderStyle to FixedSingle because this application isn't responsize to resizes, yet
 - [ ] Add log in verification
 - [ ] Fix an issue where closing a form that has a parent form hidden doesn't kill the program entirely. This can be done by setting the buttons that spawn the child forms to use me.close() instead of me.hide()
