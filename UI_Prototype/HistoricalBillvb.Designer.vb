@@ -51,7 +51,7 @@ Partial Class historicalBill
         'previousBtn
         '
         Me.previousBtn.Location = New System.Drawing.Point(156, 394)
-        Me.previousBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.previousBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.previousBtn.Name = "previousBtn"
         Me.previousBtn.Size = New System.Drawing.Size(61, 21)
         Me.previousBtn.TabIndex = 6
@@ -125,6 +125,7 @@ Partial Class historicalBill
         Me.Controls.Add(Me.historical_bill_list)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.previousBtn)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "historicalBill"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Historical Bill"

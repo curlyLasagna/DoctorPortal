@@ -69,6 +69,7 @@ Partial Class MedicationRefillingSubmit
         Me.Controls.Add(Me.noBtn)
         Me.Controls.Add(Me.areYouSureLabel)
         Me.Controls.Add(Me.yesBtn)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "MedicationRefillingSubmit"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Medication Refilling Submit"

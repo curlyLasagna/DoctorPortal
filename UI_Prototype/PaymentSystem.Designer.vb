@@ -452,6 +452,7 @@ Partial Class PaymentSystem
         Me.Controls.Add(Me.addressTwo)
         Me.Controls.Add(Me.firstName)
         Me.Controls.Add(Me.previousBtn)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "PaymentSystem"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

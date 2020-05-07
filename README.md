@@ -29,8 +29,8 @@ Windows will warn you about this application and you can do two things:
 
 # TODO
 - [x] Overhaul main menu layout
-- [ ] Change all form's FormBorderStyle to FixedSingle because this application isn't responsize to resizes, yet
+- [x] Change all form's FormBorderStyle to FixedSingle because this application isn't responsize to resizes, yet
 - [ ] Add log in verification
-- [ ] Fix an issue where closing a form that has a parent form hidden doesn't kill the program entirely. This can be done by setting the buttons that spawn the child forms to use me.close() instead of me.hide()
+- [x] Fix an issue where closing a form that has a parent form hidden doesn't kill the program entirely. This can be done by setting the buttons that spawn the child forms to use me.close() instead of me.hide()
 - [x] Change the ListBox object to a more uniform alternative in MedicationRefilling form
-- [ ] Change the MedHx text boxes to read only. Actually, Any text box that doesn't require user intervention to be read only.
+- [x] Change the MedHx text boxes to read only. Actually, Any text box that doesn't require user intervention to be read only.

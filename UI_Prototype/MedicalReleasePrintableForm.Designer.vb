@@ -165,6 +165,7 @@ Partial Class MedicalReleasePrintableForm
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ptNameLabel)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MedicalReleasePrintableForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

@@ -119,6 +119,7 @@ Partial Class recoveryForm
         Me.ClientSize = New System.Drawing.Size(230, 243)
         Me.ControlBox = False
         Me.Controls.Add(Me.TableLayoutPanel1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "recoveryForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Trouble signing in?"

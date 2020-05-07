@@ -164,12 +164,10 @@ Partial Class Home_Monitoring
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 24.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.ClientSize = New System.Drawing.Size(489, 250)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.DateTimePicker1)
-
         Me.Controls.Add(Me.previousBtn)
         Me.Controls.Add(Me.submitButton)
         Me.Controls.Add(Me.weightTextBox)
@@ -181,6 +179,7 @@ Partial Class Home_Monitoring
         Me.Controls.Add(Me.timeLabel)
         Me.Controls.Add(Me.dateLabel)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.Name = "Home_Monitoring"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

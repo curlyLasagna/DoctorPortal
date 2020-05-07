@@ -155,6 +155,7 @@ Partial Class MedicationRefilling
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.directions)
         Me.Controls.Add(Me.previousBtn)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MedicationRefilling"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

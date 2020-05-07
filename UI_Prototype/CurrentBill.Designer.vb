@@ -56,9 +56,10 @@ Partial Class currentBill
         '
         Me.receiptItemListBox.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.medicalCode, Me.descriptonOfService, Me.quanityOfService, Me.rateOfService, Me.moneyTotal})
         Me.receiptItemListBox.HideSelection = False
-        Me.receiptItemListBox.Location = New System.Drawing.Point(16, 455)
+        Me.receiptItemListBox.Location = New System.Drawing.Point(11, 296)
+        Me.receiptItemListBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.receiptItemListBox.Name = "receiptItemListBox"
-        Me.receiptItemListBox.Size = New System.Drawing.Size(618, 207)
+        Me.receiptItemListBox.Size = New System.Drawing.Size(413, 136)
         Me.receiptItemListBox.TabIndex = 24
         Me.receiptItemListBox.UseCompatibleStateImageBehavior = False
         Me.receiptItemListBox.View = System.Windows.Forms.View.Details
@@ -93,9 +94,10 @@ Partial Class currentBill
         Me.patientCityStateZip.AutoSize = True
         Me.patientCityStateZip.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.patientCityStateZip.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.patientCityStateZip.Location = New System.Drawing.Point(16, 397)
+        Me.patientCityStateZip.Location = New System.Drawing.Point(11, 258)
+        Me.patientCityStateZip.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientCityStateZip.Name = "patientCityStateZip"
-        Me.patientCityStateZip.Size = New System.Drawing.Size(140, 25)
+        Me.patientCityStateZip.Size = New System.Drawing.Size(92, 16)
         Me.patientCityStateZip.TabIndex = 23
         Me.patientCityStateZip.Text = "City/State/ZIP:"
         '
@@ -104,9 +106,10 @@ Partial Class currentBill
         Me.patientStreetAddress.AutoSize = True
         Me.patientStreetAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.patientStreetAddress.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.patientStreetAddress.Location = New System.Drawing.Point(16, 365)
+        Me.patientStreetAddress.Location = New System.Drawing.Point(11, 237)
+        Me.patientStreetAddress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientStreetAddress.Name = "patientStreetAddress"
-        Me.patientStreetAddress.Size = New System.Drawing.Size(148, 25)
+        Me.patientStreetAddress.Size = New System.Drawing.Size(100, 16)
         Me.patientStreetAddress.TabIndex = 22
         Me.patientStreetAddress.Text = "Street Address:"
         '
@@ -115,9 +118,10 @@ Partial Class currentBill
         Me.patientName.AutoSize = True
         Me.patientName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.patientName.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.patientName.Location = New System.Drawing.Point(16, 335)
+        Me.patientName.Location = New System.Drawing.Point(11, 218)
+        Me.patientName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientName.Name = "patientName"
-        Me.patientName.Size = New System.Drawing.Size(70, 25)
+        Me.patientName.Size = New System.Drawing.Size(48, 16)
         Me.patientName.TabIndex = 21
         Me.patientName.Text = "Name:"
         '
@@ -126,9 +130,10 @@ Partial Class currentBill
         Me.patientInformation.AutoSize = True
         Me.patientInformation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.patientInformation.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.patientInformation.Location = New System.Drawing.Point(16, 302)
+        Me.patientInformation.Location = New System.Drawing.Point(11, 196)
+        Me.patientInformation.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.patientInformation.Name = "patientInformation"
-        Me.patientInformation.Size = New System.Drawing.Size(179, 25)
+        Me.patientInformation.Size = New System.Drawing.Size(120, 16)
         Me.patientInformation.TabIndex = 20
         Me.patientInformation.Text = "Patient Information:"
         '
@@ -137,9 +142,10 @@ Partial Class currentBill
         Me.officeCityStateZip.AutoSize = True
         Me.officeCityStateZip.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.officeCityStateZip.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.officeCityStateZip.Location = New System.Drawing.Point(16, 246)
+        Me.officeCityStateZip.Location = New System.Drawing.Point(11, 160)
+        Me.officeCityStateZip.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.officeCityStateZip.Name = "officeCityStateZip"
-        Me.officeCityStateZip.Size = New System.Drawing.Size(140, 25)
+        Me.officeCityStateZip.Size = New System.Drawing.Size(92, 16)
         Me.officeCityStateZip.TabIndex = 19
         Me.officeCityStateZip.Text = "City/State/ZIP:"
         '
@@ -148,9 +154,10 @@ Partial Class currentBill
         Me.officeAddress.AutoSize = True
         Me.officeAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.officeAddress.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.officeAddress.Location = New System.Drawing.Point(16, 215)
+        Me.officeAddress.Location = New System.Drawing.Point(11, 140)
+        Me.officeAddress.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.officeAddress.Name = "officeAddress"
-        Me.officeAddress.Size = New System.Drawing.Size(147, 25)
+        Me.officeAddress.Size = New System.Drawing.Size(99, 16)
         Me.officeAddress.TabIndex = 18
         Me.officeAddress.Text = "Office Address:"
         '
@@ -159,9 +166,10 @@ Partial Class currentBill
         Me.licenseNumber.AutoSize = True
         Me.licenseNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.licenseNumber.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.licenseNumber.Location = New System.Drawing.Point(16, 182)
+        Me.licenseNumber.Location = New System.Drawing.Point(11, 118)
+        Me.licenseNumber.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.licenseNumber.Name = "licenseNumber"
-        Me.licenseNumber.Size = New System.Drawing.Size(160, 25)
+        Me.licenseNumber.Size = New System.Drawing.Size(109, 16)
         Me.licenseNumber.TabIndex = 17
         Me.licenseNumber.Text = "License Number:"
         '
@@ -170,9 +178,10 @@ Partial Class currentBill
         Me.doctorsName.AutoSize = True
         Me.doctorsName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.doctorsName.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.doctorsName.Location = New System.Drawing.Point(16, 151)
+        Me.doctorsName.Location = New System.Drawing.Point(11, 98)
+        Me.doctorsName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.doctorsName.Name = "doctorsName"
-        Me.doctorsName.Size = New System.Drawing.Size(168, 25)
+        Me.doctorsName.Size = New System.Drawing.Size(115, 16)
         Me.doctorsName.TabIndex = 16
         Me.doctorsName.Text = "Practitoner Name:"
         '
@@ -181,9 +190,10 @@ Partial Class currentBill
         Me.dateLable.AutoSize = True
         Me.dateLable.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dateLable.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.dateLable.Location = New System.Drawing.Point(458, 120)
+        Me.dateLable.Location = New System.Drawing.Point(305, 78)
+        Me.dateLable.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.dateLable.Name = "dateLable"
-        Me.dateLable.Size = New System.Drawing.Size(59, 25)
+        Me.dateLable.Size = New System.Drawing.Size(40, 16)
         Me.dateLable.TabIndex = 15
         Me.dateLable.Text = "Date:"
         '
@@ -192,9 +202,10 @@ Partial Class currentBill
         Me.nameOfInstitution.AutoSize = True
         Me.nameOfInstitution.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nameOfInstitution.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.nameOfInstitution.Location = New System.Drawing.Point(16, 120)
+        Me.nameOfInstitution.Location = New System.Drawing.Point(11, 78)
+        Me.nameOfInstitution.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.nameOfInstitution.Name = "nameOfInstitution"
-        Me.nameOfInstitution.Size = New System.Drawing.Size(251, 25)
+        Me.nameOfInstitution.Size = New System.Drawing.Size(170, 16)
         Me.nameOfInstitution.TabIndex = 14
         Me.nameOfInstitution.Text = "Name of Medical Institution:"
         '
@@ -204,9 +215,10 @@ Partial Class currentBill
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(341, 15)
+        Me.Label1.Location = New System.Drawing.Point(227, 9)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(184, 74)
+        Me.Label1.Size = New System.Drawing.Size(124, 50)
         Me.Label1.TabIndex = 25
         Me.Label1.Text = "Current Bill " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "   Viewer"
         '
@@ -214,9 +226,10 @@ Partial Class currentBill
         '
         Me.previousBtn.BackColor = System.Drawing.Color.WhiteSmoke
         Me.previousBtn.ForeColor = System.Drawing.Color.Black
-        Me.previousBtn.Location = New System.Drawing.Point(16, 923)
+        Me.previousBtn.Location = New System.Drawing.Point(11, 600)
+        Me.previousBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.previousBtn.Name = "previousBtn"
-        Me.previousBtn.Size = New System.Drawing.Size(92, 32)
+        Me.previousBtn.Size = New System.Drawing.Size(61, 21)
         Me.previousBtn.TabIndex = 29
         Me.previousBtn.Text = "Previous"
         Me.previousBtn.UseVisualStyleBackColor = False
@@ -225,9 +238,10 @@ Partial Class currentBill
         '
         Me.payNowBtn.BackColor = System.Drawing.Color.WhiteSmoke
         Me.payNowBtn.ForeColor = System.Drawing.Color.Black
-        Me.payNowBtn.Location = New System.Drawing.Point(268, 840)
+        Me.payNowBtn.Location = New System.Drawing.Point(179, 546)
+        Me.payNowBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.payNowBtn.Name = "payNowBtn"
-        Me.payNowBtn.Size = New System.Drawing.Size(142, 58)
+        Me.payNowBtn.Size = New System.Drawing.Size(95, 38)
         Me.payNowBtn.TabIndex = 30
         Me.payNowBtn.Text = "Pay Now "
         Me.payNowBtn.UseVisualStyleBackColor = False
@@ -237,9 +251,10 @@ Partial Class currentBill
         Me.insurancePayment.AutoSize = True
         Me.insurancePayment.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.insurancePayment.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.insurancePayment.Location = New System.Drawing.Point(16, 777)
+        Me.insurancePayment.Location = New System.Drawing.Point(11, 505)
+        Me.insurancePayment.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.insurancePayment.Name = "insurancePayment"
-        Me.insurancePayment.Size = New System.Drawing.Size(202, 25)
+        Me.insurancePayment.Size = New System.Drawing.Size(135, 16)
         Me.insurancePayment.TabIndex = 37
         Me.insurancePayment.Text = "Insurance Payment: $"
         '
@@ -248,9 +263,10 @@ Partial Class currentBill
         Me.totalAmount.AutoSize = True
         Me.totalAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalAmount.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.totalAmount.Location = New System.Drawing.Point(16, 814)
+        Me.totalAmount.Location = New System.Drawing.Point(11, 529)
+        Me.totalAmount.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.totalAmount.Name = "totalAmount"
-        Me.totalAmount.Size = New System.Drawing.Size(78, 25)
+        Me.totalAmount.Size = New System.Drawing.Size(52, 16)
         Me.totalAmount.TabIndex = 36
         Me.totalAmount.Text = "Total: $"
         '
@@ -259,9 +275,10 @@ Partial Class currentBill
         Me.subtotal.AutoSize = True
         Me.subtotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.subtotal.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.subtotal.Location = New System.Drawing.Point(16, 709)
+        Me.subtotal.Location = New System.Drawing.Point(11, 461)
+        Me.subtotal.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.subtotal.Name = "subtotal"
-        Me.subtotal.Size = New System.Drawing.Size(106, 25)
+        Me.subtotal.Size = New System.Drawing.Size(70, 16)
         Me.subtotal.TabIndex = 35
         Me.subtotal.Text = "Subtotal: $"
         '
@@ -270,9 +287,10 @@ Partial Class currentBill
         Me.taxRate.AutoSize = True
         Me.taxRate.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.taxRate.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.taxRate.Location = New System.Drawing.Point(16, 743)
+        Me.taxRate.Location = New System.Drawing.Point(11, 483)
+        Me.taxRate.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.taxRate.Name = "taxRate"
-        Me.taxRate.Size = New System.Drawing.Size(134, 25)
+        Me.taxRate.Size = New System.Drawing.Size(89, 16)
         Me.taxRate.TabIndex = 34
         Me.taxRate.Text = "Tax Rate (%):"
         '
@@ -284,31 +302,29 @@ Partial Class currentBill
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.97459!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 0, 0)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(-2, -5)
-        Me.TableLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(-1, -3)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(652, 105)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(435, 68)
         Me.TableLayoutPanel1.TabIndex = 38
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(4, 5)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(201, 88)
+        Me.PictureBox1.Size = New System.Drawing.Size(134, 57)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 26
         Me.PictureBox1.TabStop = False
         '
         'currentBill
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.ClientSize = New System.Drawing.Size(644, 972)
+        Me.ClientSize = New System.Drawing.Size(429, 487)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.insurancePayment)
         Me.Controls.Add(Me.totalAmount)
@@ -327,6 +343,8 @@ Partial Class currentBill
         Me.Controls.Add(Me.doctorsName)
         Me.Controls.Add(Me.dateLable)
         Me.Controls.Add(Me.nameOfInstitution)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "currentBill"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Current Bill"

@@ -52,7 +52,7 @@ Partial Class MainMenu
         Me.Button1.FlatAppearance.BorderSize = 3
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Location = New System.Drawing.Point(2, 2)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(117, 31)
         Me.Button1.TabIndex = 1
@@ -66,7 +66,7 @@ Partial Class MainMenu
         Me.AboutMe_Button.FlatAppearance.BorderSize = 3
         Me.AboutMe_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AboutMe_Button.Location = New System.Drawing.Point(3, 97)
-        Me.AboutMe_Button.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.AboutMe_Button.Margin = New System.Windows.Forms.Padding(2)
         Me.AboutMe_Button.Name = "AboutMe_Button"
         Me.AboutMe_Button.Size = New System.Drawing.Size(114, 42)
         Me.AboutMe_Button.TabIndex = 3
@@ -80,7 +80,7 @@ Partial Class MainMenu
         Me.Button4.FlatAppearance.BorderSize = 3
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Location = New System.Drawing.Point(2, 37)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(117, 31)
         Me.Button4.TabIndex = 4
@@ -95,7 +95,7 @@ Partial Class MainMenu
         Me.Button5.FlatAppearance.BorderSize = 3
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Location = New System.Drawing.Point(2, 235)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(114, 42)
         Me.Button5.TabIndex = 5
@@ -109,7 +109,7 @@ Partial Class MainMenu
         Me.Button6.FlatAppearance.BorderSize = 3
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Location = New System.Drawing.Point(3, 189)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(114, 42)
         Me.Button6.TabIndex = 6
@@ -123,7 +123,7 @@ Partial Class MainMenu
         Me.Button7.FlatAppearance.BorderSize = 3
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Location = New System.Drawing.Point(3, 143)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(2)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(114, 42)
         Me.Button7.TabIndex = 7
@@ -137,7 +137,7 @@ Partial Class MainMenu
         Me.Button8.FlatAppearance.BorderSize = 3
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Location = New System.Drawing.Point(1, 179)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(2)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(118, 31)
         Me.Button8.TabIndex = 8
@@ -151,7 +151,7 @@ Partial Class MainMenu
         Me.Button9.FlatAppearance.BorderSize = 3
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Location = New System.Drawing.Point(2, 107)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(2)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(117, 31)
         Me.Button9.TabIndex = 9
@@ -165,7 +165,7 @@ Partial Class MainMenu
         Me.Button10.FlatAppearance.BorderSize = 3
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.Location = New System.Drawing.Point(2, 72)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(2)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(117, 31)
         Me.Button10.TabIndex = 10
@@ -273,7 +273,8 @@ Partial Class MainMenu
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.AboutMe_Button)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MainMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Patient Portal"

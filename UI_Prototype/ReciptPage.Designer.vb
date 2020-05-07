@@ -370,6 +370,7 @@ Partial Class ReciptPage
         Me.Controls.Add(Me.dateLable)
         Me.Controls.Add(Me.recitptNumber)
         Me.Controls.Add(Me.nameOfInstitution)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "ReciptPage"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

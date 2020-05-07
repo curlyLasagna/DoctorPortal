@@ -74,6 +74,7 @@ Partial Class appt_upcoming
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "appt_upcoming"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Upcoming Aptts"

@@ -57,7 +57,7 @@ Partial Class MedRecordRequest
         '
         Me.Label1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label1.Font = New System.Drawing.Font("DejaVu Serif Condensed", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
@@ -75,6 +75,7 @@ Partial Class MedRecordRequest
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.previousBtn)
         Me.Controls.Add(Me.openReleaseFormButton)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MedRecordRequest"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
