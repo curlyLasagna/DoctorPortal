@@ -24,16 +24,14 @@ Partial Class MainMenu
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainMenu))
-        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Thursday, April 22, 2020", "Saturday, April 25, 2020", "10:30 am", "Dr. Mabuse", "Pending"}, -1)
-        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Friday, May 22, 2020", "Thursday, May 28, 2020", "1:00 pm", "Dr. Norbauer", "Accepted"}, -1)
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Thursday, April 22, 2020", "Saturday, April 25, 2020", "10:30 am", "Dr. Mabuse", "Pending"}, -1)
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Friday, May 22, 2020", "Thursday, May 28, 2020", "1:00 pm", "Dr. Norbauer", "Accepted"}, -1)
         Me.AboutMe_Button = New System.Windows.Forms.Button()
         Me.med_record = New System.Windows.Forms.Button()
         Me.prescription_btn = New System.Windows.Forms.Button()
         Me.homeMonitoring_btn = New System.Windows.Forms.Button()
         Me.billing_btn = New System.Windows.Forms.Button()
         Me.AboutMeSubMenu = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.bill_info = New System.Windows.Forms.Label()
         Me.client_info = New System.Windows.Forms.Label()
         Me.ins_info = New System.Windows.Forms.Label()
         Me.phar_info = New System.Windows.Forms.Label()
@@ -44,7 +42,7 @@ Partial Class MainMenu
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.appointment_label = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.add_apt_btn = New System.Windows.Forms.Button()
         Me.delete_appt_btn = New System.Windows.Forms.Button()
         Me.appt_listView = New System.Windows.Forms.ListView()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -53,9 +51,14 @@ Partial Class MainMenu
         Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.currentBill_label = New System.Windows.Forms.Label()
+        Me.historicalBill_label = New System.Windows.Forms.Label()
+        Me.billing_panel = New System.Windows.Forms.Panel()
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.AboutMeSubMenu.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel1.SuspendLayout()
+        Me.billing_panel.SuspendLayout()
         Me.SuspendLayout()
         '
         'AboutMe_Button
@@ -65,7 +68,7 @@ Partial Class MainMenu
         Me.AboutMe_Button.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.AboutMe_Button.FlatAppearance.BorderSize = 3
         Me.AboutMe_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.AboutMe_Button.Location = New System.Drawing.Point(717, 22)
+        Me.AboutMe_Button.Location = New System.Drawing.Point(716, 22)
         Me.AboutMe_Button.Margin = New System.Windows.Forms.Padding(2)
         Me.AboutMe_Button.Name = "AboutMe_Button"
         Me.AboutMe_Button.Size = New System.Drawing.Size(117, 30)
@@ -80,7 +83,7 @@ Partial Class MainMenu
         Me.med_record.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.med_record.FlatAppearance.BorderSize = 3
         Me.med_record.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.med_record.Location = New System.Drawing.Point(588, 22)
+        Me.med_record.Location = New System.Drawing.Point(207, 22)
         Me.med_record.Margin = New System.Windows.Forms.Padding(2)
         Me.med_record.Name = "med_record"
         Me.med_record.Size = New System.Drawing.Size(117, 30)
@@ -96,7 +99,7 @@ Partial Class MainMenu
         Me.prescription_btn.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.prescription_btn.FlatAppearance.BorderSize = 3
         Me.prescription_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.prescription_btn.Location = New System.Drawing.Point(334, 22)
+        Me.prescription_btn.Location = New System.Drawing.Point(332, 22)
         Me.prescription_btn.Margin = New System.Windows.Forms.Padding(2)
         Me.prescription_btn.Name = "prescription_btn"
         Me.prescription_btn.Size = New System.Drawing.Size(117, 30)
@@ -111,7 +114,7 @@ Partial Class MainMenu
         Me.homeMonitoring_btn.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.homeMonitoring_btn.FlatAppearance.BorderSize = 3
         Me.homeMonitoring_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.homeMonitoring_btn.Location = New System.Drawing.Point(460, 22)
+        Me.homeMonitoring_btn.Location = New System.Drawing.Point(458, 22)
         Me.homeMonitoring_btn.Margin = New System.Windows.Forms.Padding(2)
         Me.homeMonitoring_btn.Name = "homeMonitoring_btn"
         Me.homeMonitoring_btn.Size = New System.Drawing.Size(117, 30)
@@ -126,7 +129,7 @@ Partial Class MainMenu
         Me.billing_btn.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.billing_btn.FlatAppearance.BorderSize = 3
         Me.billing_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.billing_btn.Location = New System.Drawing.Point(209, 22)
+        Me.billing_btn.Location = New System.Drawing.Point(586, 22)
         Me.billing_btn.Margin = New System.Windows.Forms.Padding(2)
         Me.billing_btn.Name = "billing_btn"
         Me.billing_btn.Size = New System.Drawing.Size(117, 30)
@@ -136,38 +139,15 @@ Partial Class MainMenu
         '
         'AboutMeSubMenu
         '
-        Me.AboutMeSubMenu.AutoScroll = True
         Me.AboutMeSubMenu.BackColor = System.Drawing.Color.White
-        Me.AboutMeSubMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.AboutMeSubMenu.Controls.Add(Me.Label2)
-        Me.AboutMeSubMenu.Controls.Add(Me.bill_info)
         Me.AboutMeSubMenu.Controls.Add(Me.client_info)
         Me.AboutMeSubMenu.Controls.Add(Me.ins_info)
         Me.AboutMeSubMenu.Controls.Add(Me.phar_info)
         Me.AboutMeSubMenu.Controls.Add(Me.med_history_label)
-        Me.AboutMeSubMenu.Location = New System.Drawing.Point(720, 70)
+        Me.AboutMeSubMenu.Location = New System.Drawing.Point(716, 70)
         Me.AboutMeSubMenu.Name = "AboutMeSubMenu"
-        Me.AboutMeSubMenu.Size = New System.Drawing.Size(122, 0)
+        Me.AboutMeSubMenu.Size = New System.Drawing.Size(126, 0)
         Me.AboutMeSubMenu.TabIndex = 11
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(5, 291)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(76, 13)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Prototype v0.8"
-        '
-        'bill_info
-        '
-        Me.bill_info.AutoSize = True
-        Me.bill_info.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bill_info.Location = New System.Drawing.Point(3, 108)
-        Me.bill_info.Name = "bill_info"
-        Me.bill_info.Size = New System.Drawing.Size(41, 13)
-        Me.bill_info.TabIndex = 4
-        Me.bill_info.Text = "Bill Info"
         '
         'client_info
         '
@@ -232,9 +212,9 @@ Partial Class MainMenu
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("DejaVu Sans Condensed", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(81, 0)
+        Me.Label1.Location = New System.Drawing.Point(80, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(122, 74)
+        Me.Label1.Size = New System.Drawing.Size(121, 74)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "The Vindicator's Patient Portal"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -265,14 +245,14 @@ Partial Class MainMenu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 127.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 127.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 0, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.billing_btn, 2, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.prescription_btn, 3, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.med_record, 5, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.AboutMe_Button, 6, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.med_record, 2, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.homeMonitoring_btn, 4, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.billing_btn, 5, 0)
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, -2)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
@@ -293,20 +273,20 @@ Partial Class MainMenu
         Me.appointment_label.Text = "Upcoming appointments"
         Me.appointment_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Button1
+        'add_apt_btn
         '
-        Me.Button1.BackColor = System.Drawing.Color.MidnightBlue
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("DejaVu Sans Condensed", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.Button1.Location = New System.Drawing.Point(513, 91)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(194, 35)
-        Me.Button1.TabIndex = 16
-        Me.Button1.Text = "Request Appointment +"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.add_apt_btn.BackColor = System.Drawing.Color.MidnightBlue
+        Me.add_apt_btn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.add_apt_btn.FlatAppearance.BorderSize = 0
+        Me.add_apt_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.add_apt_btn.Font = New System.Drawing.Font("DejaVu Sans Condensed", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.add_apt_btn.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.add_apt_btn.Location = New System.Drawing.Point(513, 91)
+        Me.add_apt_btn.Name = "add_apt_btn"
+        Me.add_apt_btn.Size = New System.Drawing.Size(194, 35)
+        Me.add_apt_btn.TabIndex = 16
+        Me.add_apt_btn.Text = "Request Appointment +"
+        Me.add_apt_btn.UseVisualStyleBackColor = False
         '
         'delete_appt_btn
         '
@@ -326,13 +306,14 @@ Partial Class MainMenu
         '
         Me.appt_listView.Alignment = System.Windows.Forms.ListViewAlignment.[Default]
         Me.appt_listView.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.appt_listView.BackColor = System.Drawing.Color.Gainsboro
         Me.appt_listView.CheckBoxes = True
         Me.appt_listView.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6})
         Me.appt_listView.HideSelection = False
-        ListViewItem3.StateImageIndex = 0
-        ListViewItem3.Tag = ""
-        ListViewItem4.StateImageIndex = 0
-        Me.appt_listView.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem3, ListViewItem4})
+        ListViewItem1.StateImageIndex = 0
+        ListViewItem1.Tag = ""
+        ListViewItem2.StateImageIndex = 0
+        Me.appt_listView.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2})
         Me.appt_listView.Location = New System.Drawing.Point(17, 126)
         Me.appt_listView.Name = "appt_listView"
         Me.appt_listView.Size = New System.Drawing.Size(690, 175)
@@ -371,6 +352,40 @@ Partial Class MainMenu
         Me.ColumnHeader6.Text = "Status"
         Me.ColumnHeader6.Width = 81
         '
+        'currentBill_label
+        '
+        Me.currentBill_label.AutoSize = True
+        Me.currentBill_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.currentBill_label.Location = New System.Drawing.Point(3, 4)
+        Me.currentBill_label.Name = "currentBill_label"
+        Me.currentBill_label.Size = New System.Drawing.Size(62, 13)
+        Me.currentBill_label.TabIndex = 0
+        Me.currentBill_label.Text = "Current Bills"
+        Me.currentBill_label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'historicalBill_label
+        '
+        Me.historicalBill_label.AutoSize = True
+        Me.historicalBill_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.historicalBill_label.Location = New System.Drawing.Point(3, 30)
+        Me.historicalBill_label.Name = "historicalBill_label"
+        Me.historicalBill_label.Size = New System.Drawing.Size(55, 13)
+        Me.historicalBill_label.TabIndex = 1
+        Me.historicalBill_label.Text = "Bill History"
+        '
+        'billing_panel
+        '
+        Me.billing_panel.BackColor = System.Drawing.Color.White
+        Me.billing_panel.Controls.Add(Me.currentBill_label)
+        Me.billing_panel.Controls.Add(Me.historicalBill_label)
+        Me.billing_panel.Location = New System.Drawing.Point(586, 72)
+        Me.billing_panel.Name = "billing_panel"
+        Me.billing_panel.Size = New System.Drawing.Size(117, 0)
+        Me.billing_panel.TabIndex = 21
+        '
+        'Timer2
+        '
+        '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -378,9 +393,10 @@ Partial Class MainMenu
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.CancelButton = Me.exit_button
         Me.ClientSize = New System.Drawing.Size(839, 385)
+        Me.Controls.Add(Me.billing_panel)
         Me.Controls.Add(Me.appt_listView)
         Me.Controls.Add(Me.delete_appt_btn)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.add_apt_btn)
         Me.Controls.Add(Me.appointment_label)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.exit_button)
@@ -394,6 +410,8 @@ Partial Class MainMenu
         Me.AboutMeSubMenu.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.billing_panel.ResumeLayout(False)
+        Me.billing_panel.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -409,19 +427,21 @@ Partial Class MainMenu
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents med_history_label As Label
-    Friend WithEvents bill_info As Label
     Friend WithEvents client_info As Label
     Friend WithEvents ins_info As Label
     Friend WithEvents phar_info As Label
     Friend WithEvents appointment_label As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents add_apt_btn As Button
     Friend WithEvents delete_appt_btn As Button
     Friend WithEvents appt_listView As ListView
-    Friend WithEvents Label2 As Label
     Friend WithEvents ColumnHeader1 As ColumnHeader
     Friend WithEvents ColumnHeader2 As ColumnHeader
     Friend WithEvents ColumnHeader3 As ColumnHeader
     Friend WithEvents ColumnHeader4 As ColumnHeader
     Friend WithEvents ColumnHeader5 As ColumnHeader
     Friend WithEvents ColumnHeader6 As ColumnHeader
+    Friend WithEvents currentBill_label As Label
+    Friend WithEvents historicalBill_label As Label
+    Friend WithEvents billing_panel As Panel
+    Friend WithEvents Timer2 As Timer
 End Class

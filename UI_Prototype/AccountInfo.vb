@@ -18,11 +18,8 @@
     'End Sub
 
     Private Sub goto_MainMenu(sender As Object, e As EventArgs) Handles previous_Button.Click
-        Me.Close()
         MainMenu.Show()
+        Me.Close()
     End Sub
 
-    Private Sub AccountInfo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.MdiParent = MainMenu
-    End Sub
 End Class

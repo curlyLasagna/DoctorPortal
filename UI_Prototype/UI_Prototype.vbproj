@@ -98,22 +98,10 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="appt_cancel.Designer.vb">
-      <DependentUpon>appt_cancel.vb</DependentUpon>
-    </Compile>
-    <Compile Include="appt_cancel.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="appt_cancel_submit.Designer.vb">
       <DependentUpon>appt_cancel_submit.vb</DependentUpon>
     </Compile>
     <Compile Include="appt_cancel_submit.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="appt_main.Designer.vb">
-      <DependentUpon>appt_main.vb</DependentUpon>
-    </Compile>
-    <Compile Include="appt_main.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="appt_schedule.Designer.vb">
@@ -126,12 +114,6 @@
       <DependentUpon>appt_schedule_submit.vb</DependentUpon>
     </Compile>
     <Compile Include="appt_schedule_submit.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="appt_upcoming.Designer.vb">
-      <DependentUpon>appt_upcoming.vb</DependentUpon>
-    </Compile>
-    <Compile Include="appt_upcoming.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Bill_Info.Designer.vb">
@@ -149,6 +131,9 @@
     <Compile Include="doctorPortalDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>doctorPortalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="doctorPortalDataSet.vb">
       <DependentUpon>doctorPortalDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="recoveryForm.Designer.vb">
@@ -281,24 +266,15 @@
     <EmbeddedResource Include="AccountInfo.resx">
       <DependentUpon>AccountInfo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="appt_cancel.resx">
-      <DependentUpon>appt_cancel.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="appt_cancel_submit.resx">
       <DependentUpon>appt_cancel_submit.vb</DependentUpon>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="appt_main.resx">
-      <DependentUpon>appt_main.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="appt_schedule.resx">
       <DependentUpon>appt_schedule.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="appt_schedule_submit.resx">
       <DependentUpon>appt_schedule_submit.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="appt_upcoming.resx">
-      <DependentUpon>appt_upcoming.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bill_Info.resx">
       <DependentUpon>Bill_Info.vb</DependentUpon>

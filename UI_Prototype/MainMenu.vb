@@ -14,11 +14,34 @@
         End If
     End Sub
 
+    ' Tick for about me 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         ' When 'About me' button is clicked, this sets the
         ' AboutMeSubMenu to this height to show it
-        AboutMeSubMenu.Height = 143
+        AboutMeSubMenu.Height = 115
         Timer1.Stop()
+    End Sub
+
+    ' Tick for billing
+    Private Sub Timer2_tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        billing_panel.Height = 55
+        Timer2.Stop()
+    End Sub
+    Private Sub billing_click(sender As Object, e As EventArgs) Handles billing_btn.Click
+        Timer2.Start()
+        If Not billing_panel.Height = 0 Then
+            billing_panel.Height = 0
+            Timer2.Enabled = False
+        End If
+    End Sub
+    Private Sub show_currentBills_Click(sender As Object, e As EventArgs) Handles currentBill_label.Click
+        currentBill.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub show_historyBill_click(sender As Object, e As EventArgs) Handles historicalBill_label.Click
+        historicalBill.Show()
+        Me.Close()
     End Sub
 
     ' Exit button
@@ -45,11 +68,6 @@
     Private Sub show_medical_history_label(sender As Object, e As EventArgs) Handles med_history_label.Click
         MedHx.Show()
         Me.Close()
-    End Sub
-
-    Private Sub bill_show_click(sender As Object, e As EventArgs) Handles billing_btn.Click
-        bill_info.Show()
-        Me.Hide()
     End Sub
 
     Private Sub show_med_record_click(sender As Object, e As EventArgs) Handles med_record.Click

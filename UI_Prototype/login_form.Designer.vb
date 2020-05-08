@@ -15,12 +15,6 @@ Partial Class login_form
         End Try
     End Sub
     Friend WithEvents LogoPictureBox As System.Windows.Forms.PictureBox
-    Friend WithEvents UsernameLabel As System.Windows.Forms.Label
-    Friend WithEvents PasswordLabel As System.Windows.Forms.Label
-    Friend WithEvents username_TextBox As System.Windows.Forms.TextBox
-    Friend WithEvents PasswordTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents signIn_button As System.Windows.Forms.Button
-    Friend WithEvents Cancel As System.Windows.Forms.Button
 
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
@@ -28,17 +22,18 @@ Partial Class login_form
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(login_form))
         Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
-        Me.UsernameLabel = New System.Windows.Forms.Label()
-        Me.PasswordLabel = New System.Windows.Forms.Label()
-        Me.username_TextBox = New System.Windows.Forms.TextBox()
         Me.PasswordTextBox = New System.Windows.Forms.TextBox()
         Me.signIn_button = New System.Windows.Forms.Button()
+        Me.PasswordLabel = New System.Windows.Forms.Label()
         Me.Cancel = New System.Windows.Forms.Button()
+        Me.UsernameLabel = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.username_TextBox = New System.Windows.Forms.TextBox()
+        Me.showPassword_chkbox = New System.Windows.Forms.CheckBox()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -53,38 +48,9 @@ Partial Class login_form
         Me.LogoPictureBox.TabIndex = 0
         Me.LogoPictureBox.TabStop = False
         '
-        'UsernameLabel
-        '
-        Me.UsernameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UsernameLabel.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.UsernameLabel.Location = New System.Drawing.Point(172, 24)
-        Me.UsernameLabel.Name = "UsernameLabel"
-        Me.UsernameLabel.Size = New System.Drawing.Size(220, 23)
-        Me.UsernameLabel.TabIndex = 0
-        Me.UsernameLabel.Text = "&Email"
-        Me.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'PasswordLabel
-        '
-        Me.PasswordLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PasswordLabel.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.PasswordLabel.Location = New System.Drawing.Point(172, 81)
-        Me.PasswordLabel.Name = "PasswordLabel"
-        Me.PasswordLabel.Size = New System.Drawing.Size(220, 23)
-        Me.PasswordLabel.TabIndex = 2
-        Me.PasswordLabel.Text = "&Password"
-        Me.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'username_TextBox
-        '
-        Me.username_TextBox.Location = New System.Drawing.Point(174, 44)
-        Me.username_TextBox.Name = "username_TextBox"
-        Me.username_TextBox.Size = New System.Drawing.Size(220, 20)
-        Me.username_TextBox.TabIndex = 1
-        '
         'PasswordTextBox
         '
-        Me.PasswordTextBox.Location = New System.Drawing.Point(174, 101)
+        Me.PasswordTextBox.Location = New System.Drawing.Point(173, 86)
         Me.PasswordTextBox.Name = "PasswordTextBox"
         Me.PasswordTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.PasswordTextBox.Size = New System.Drawing.Size(220, 20)
@@ -95,12 +61,23 @@ Partial Class login_form
         Me.signIn_button.BackColor = System.Drawing.Color.WhiteSmoke
         Me.signIn_button.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.signIn_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.signIn_button.Location = New System.Drawing.Point(175, 141)
+        Me.signIn_button.Location = New System.Drawing.Point(174, 145)
         Me.signIn_button.Name = "signIn_button"
         Me.signIn_button.Size = New System.Drawing.Size(94, 23)
         Me.signIn_button.TabIndex = 4
         Me.signIn_button.Text = "S&ign in"
         Me.signIn_button.UseVisualStyleBackColor = False
+        '
+        'PasswordLabel
+        '
+        Me.PasswordLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PasswordLabel.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.PasswordLabel.Location = New System.Drawing.Point(171, 66)
+        Me.PasswordLabel.Name = "PasswordLabel"
+        Me.PasswordLabel.Size = New System.Drawing.Size(220, 23)
+        Me.PasswordLabel.TabIndex = 2
+        Me.PasswordLabel.Text = "&Password"
+        Me.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Cancel
         '
@@ -109,12 +86,23 @@ Partial Class login_form
         Me.Cancel.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.Cancel.FlatAppearance.BorderSize = 2
         Me.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Cancel.Location = New System.Drawing.Point(295, 141)
+        Me.Cancel.Location = New System.Drawing.Point(297, 145)
         Me.Cancel.Name = "Cancel"
         Me.Cancel.Size = New System.Drawing.Size(94, 23)
         Me.Cancel.TabIndex = 5
         Me.Cancel.Text = "E&xit"
         Me.Cancel.UseVisualStyleBackColor = False
+        '
+        'UsernameLabel
+        '
+        Me.UsernameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UsernameLabel.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.UsernameLabel.Location = New System.Drawing.Point(171, 9)
+        Me.UsernameLabel.Name = "UsernameLabel"
+        Me.UsernameLabel.Size = New System.Drawing.Size(220, 23)
+        Me.UsernameLabel.TabIndex = 0
+        Me.UsernameLabel.Text = "&Email"
+        Me.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label1
         '
@@ -122,11 +110,28 @@ Partial Class login_form
         Me.Label1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.LightSteelBlue
-        Me.Label1.Location = New System.Drawing.Point(298, 86)
+        Me.Label1.Location = New System.Drawing.Point(297, 71)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(96, 13)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Trouble signing in?"
+        '
+        'username_TextBox
+        '
+        Me.username_TextBox.Location = New System.Drawing.Point(173, 29)
+        Me.username_TextBox.Name = "username_TextBox"
+        Me.username_TextBox.Size = New System.Drawing.Size(220, 20)
+        Me.username_TextBox.TabIndex = 1
+        '
+        'showPassword_chkbox
+        '
+        Me.showPassword_chkbox.AutoSize = True
+        Me.showPassword_chkbox.Location = New System.Drawing.Point(174, 112)
+        Me.showPassword_chkbox.Name = "showPassword_chkbox"
+        Me.showPassword_chkbox.Size = New System.Drawing.Size(101, 17)
+        Me.showPassword_chkbox.TabIndex = 7
+        Me.showPassword_chkbox.Text = "Show password"
+        Me.showPassword_chkbox.UseVisualStyleBackColor = True
         '
         'login_form
         '
@@ -135,15 +140,16 @@ Partial Class login_form
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.CornflowerBlue
         Me.CancelButton = Me.Cancel
-        Me.ClientSize = New System.Drawing.Size(401, 192)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Cancel)
-        Me.Controls.Add(Me.signIn_button)
-        Me.Controls.Add(Me.PasswordTextBox)
+        Me.ClientSize = New System.Drawing.Size(401, 190)
+        Me.Controls.Add(Me.showPassword_chkbox)
         Me.Controls.Add(Me.username_TextBox)
-        Me.Controls.Add(Me.PasswordLabel)
-        Me.Controls.Add(Me.UsernameLabel)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.LogoPictureBox)
+        Me.Controls.Add(Me.UsernameLabel)
+        Me.Controls.Add(Me.Cancel)
+        Me.Controls.Add(Me.PasswordTextBox)
+        Me.Controls.Add(Me.PasswordLabel)
+        Me.Controls.Add(Me.signIn_button)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "login_form"
@@ -156,5 +162,12 @@ Partial Class login_form
 
     End Sub
 
+    Friend WithEvents PasswordTextBox As TextBox
+    Friend WithEvents signIn_button As Button
+    Friend WithEvents PasswordLabel As Label
+    Friend WithEvents Cancel As Button
+    Friend WithEvents UsernameLabel As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents username_TextBox As TextBox
+    Friend WithEvents showPassword_chkbox As CheckBox
 End Class
