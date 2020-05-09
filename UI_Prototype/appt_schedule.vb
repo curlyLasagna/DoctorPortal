@@ -1,13 +1,11 @@
 ﻿Public Class appt_schedule
-    Private Sub Label2_Click(sender As Object, e As EventArgs) 
-
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles submit_appt_date.Click
+        MsgBox("Your requested appointment date and time has been sent", MsgBoxStyle.OkOnly)
+        MainMenu.Show()
+        Me.Close()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        appt_schedule_submit.Show()
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub return_mainMenu(sender As Object, e As EventArgs) Handles previous_btn.Click
         MainMenu.Show()
         Me.Close()
     End Sub

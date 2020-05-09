@@ -26,6 +26,7 @@ Partial Class MainMenu
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainMenu))
         Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Thursday, April 22, 2020", "Saturday, April 25, 2020", "10:30 am", "Dr. Mabuse", "Pending"}, -1)
         Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Friday, May 22, 2020", "Thursday, May 28, 2020", "1:00 pm", "Dr. Norbauer", "Accepted"}, -1)
+        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"", "Monday, June 1, 2020", "Thursday, June 11, 2020", "9:45 am", "Dr. Nguyen", "Accepted", ""}, -1)
         Me.AboutMe_Button = New System.Windows.Forms.Button()
         Me.med_record = New System.Windows.Forms.Button()
         Me.prescription_btn = New System.Windows.Forms.Button()
@@ -83,7 +84,7 @@ Partial Class MainMenu
         Me.med_record.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.med_record.FlatAppearance.BorderSize = 3
         Me.med_record.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.med_record.Location = New System.Drawing.Point(207, 22)
+        Me.med_record.Location = New System.Drawing.Point(206, 22)
         Me.med_record.Margin = New System.Windows.Forms.Padding(2)
         Me.med_record.Name = "med_record"
         Me.med_record.Size = New System.Drawing.Size(117, 30)
@@ -99,7 +100,7 @@ Partial Class MainMenu
         Me.prescription_btn.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.prescription_btn.FlatAppearance.BorderSize = 3
         Me.prescription_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.prescription_btn.Location = New System.Drawing.Point(332, 22)
+        Me.prescription_btn.Location = New System.Drawing.Point(331, 22)
         Me.prescription_btn.Margin = New System.Windows.Forms.Padding(2)
         Me.prescription_btn.Name = "prescription_btn"
         Me.prescription_btn.Size = New System.Drawing.Size(117, 30)
@@ -114,7 +115,7 @@ Partial Class MainMenu
         Me.homeMonitoring_btn.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.homeMonitoring_btn.FlatAppearance.BorderSize = 3
         Me.homeMonitoring_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.homeMonitoring_btn.Location = New System.Drawing.Point(458, 22)
+        Me.homeMonitoring_btn.Location = New System.Drawing.Point(457, 22)
         Me.homeMonitoring_btn.Margin = New System.Windows.Forms.Padding(2)
         Me.homeMonitoring_btn.Name = "homeMonitoring_btn"
         Me.homeMonitoring_btn.Size = New System.Drawing.Size(117, 30)
@@ -129,7 +130,7 @@ Partial Class MainMenu
         Me.billing_btn.FlatAppearance.BorderColor = System.Drawing.Color.LightSkyBlue
         Me.billing_btn.FlatAppearance.BorderSize = 3
         Me.billing_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.billing_btn.Location = New System.Drawing.Point(586, 22)
+        Me.billing_btn.Location = New System.Drawing.Point(585, 22)
         Me.billing_btn.Margin = New System.Windows.Forms.Padding(2)
         Me.billing_btn.Name = "billing_btn"
         Me.billing_btn.Size = New System.Drawing.Size(117, 30)
@@ -214,7 +215,7 @@ Partial Class MainMenu
         Me.Label1.Font = New System.Drawing.Font("DejaVu Sans Condensed", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(80, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(121, 74)
+        Me.Label1.Size = New System.Drawing.Size(120, 74)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "The Vindicator's Patient Portal"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -245,7 +246,7 @@ Partial Class MainMenu
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 127.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 125.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 130.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.prescription_btn, 3, 0)
@@ -313,7 +314,8 @@ Partial Class MainMenu
         ListViewItem1.StateImageIndex = 0
         ListViewItem1.Tag = ""
         ListViewItem2.StateImageIndex = 0
-        Me.appt_listView.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2})
+        ListViewItem3.StateImageIndex = 0
+        Me.appt_listView.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3})
         Me.appt_listView.Location = New System.Drawing.Point(17, 126)
         Me.appt_listView.Name = "appt_listView"
         Me.appt_listView.Size = New System.Drawing.Size(690, 175)
@@ -330,27 +332,27 @@ Partial Class MainMenu
         'ColumnHeader2
         '
         Me.ColumnHeader2.Text = "Request Date"
-        Me.ColumnHeader2.Width = 137
+        Me.ColumnHeader2.Width = 158
         '
         'ColumnHeader3
         '
         Me.ColumnHeader3.Text = "Date"
-        Me.ColumnHeader3.Width = 127
+        Me.ColumnHeader3.Width = 161
         '
         'ColumnHeader4
         '
         Me.ColumnHeader4.Text = "Time"
-        Me.ColumnHeader4.Width = 103
+        Me.ColumnHeader4.Width = 87
         '
         'ColumnHeader5
         '
         Me.ColumnHeader5.Text = "Provider"
-        Me.ColumnHeader5.Width = 171
+        Me.ColumnHeader5.Width = 144
         '
         'ColumnHeader6
         '
         Me.ColumnHeader6.Text = "Status"
-        Me.ColumnHeader6.Width = 81
+        Me.ColumnHeader6.Width = 71
         '
         'currentBill_label
         '

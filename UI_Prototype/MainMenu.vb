@@ -85,4 +85,21 @@
         Me.Close()
     End Sub
 
+    Private Sub delete_checked_btn(sender As Object, e As EventArgs) Handles delete_appt_btn.Click
+        ' Removes checked items from the listview of appointments
+        ' after pressing the delete button
+
+        Select Case MsgBox("Are you sure you want to delete the selected appointments?", MsgBoxStyle.OkCancel)
+            Case MsgBoxResult.Ok
+                For Each item In appt_listView.CheckedItems
+                    appt_listView.Items.Remove(item)
+                Next
+            Case MsgBoxResult.Cancel
+                Return
+        End Select
+    End Sub
+
+    Private Sub add_appt(sender As Object, e As EventArgs) Handles add_apt_btn.Click
+        appt_schedule.Show()
+    End Sub
 End Class
